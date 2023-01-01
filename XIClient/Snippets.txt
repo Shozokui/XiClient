@@ -1,0 +1,32 @@
+This is the more detailed CheckOS func used in the client. XIClient replaced it with a VersionHelpers call.
+bool CheckOS(int NTMajorVersion, int NTMinorVersion, int MajorVersion, int MinorVersion, uint16_t ServicePack) {
+	return IsWindows7OrGreater();
+
+	/*_OSVERSIONINFOA VersionInformation{};
+	VersionInformation.dwOSVersionInfoSize = sizeof(OSVERSIONINFO);
+	#pragma warning(disable : 4996)
+	GetVersionExA(&VersionInformation);
+	if (VersionInformation.dwPlatformId == VER_PLATFORM_WIN32_NT) {
+		if (VersionInformation.dwMajorVersion > NTMajorVersion)
+			return true;
+		if (VersionInformation.dwMajorVersion == NTMajorVersion && VersionInformation.dwMinorVersion >= NTMinorVersion)
+			return true;
+	}
+	else if (VersionInformation.dwPlatformId == VER_PLATFORM_WIN32_WINDOWS) {
+		if (VersionInformation.dwMajorVersion > MajorVersion)
+			return true;
+		if (VersionInformation.dwMajorVersion == MajorVersion) {
+			if (VersionInformation.dwMinorVersion > MinorVersion)
+				return true;
+			if (VersionInformation.dwMinorVersion == MinorVersion) {
+				uint32_t v6{ 0 };
+				sscanf_s(VersionInformation.szCSDVersion, "Service Pack %d", &v6);
+				return v6 >= ServicePack;
+			}
+		}
+			
+
+	}
+
+	return false;*/
+}

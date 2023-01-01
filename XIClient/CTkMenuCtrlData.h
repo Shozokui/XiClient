@@ -1,0 +1,163 @@
+#pragma once
+#define WIN32_LEAN_AND_MEAN
+#include "CTkObject.h"
+#include "CTkObList.h"
+#include "d3d8to9/d3d8.hpp"
+#include "TkRect.h"
+#include <wtypes.h>
+
+namespace FFXI {
+	namespace CTk {
+		class CTkMenuData;
+		class CTkDrawCtrlButton;
+		class CTkDrawCtrlFrame;
+		class CTkMenuPrimitive;
+		class KaWindow;
+		class _49SubList;
+		class CTkMenuCtrlData : public CTkObject {
+		public:
+			static D3DVIEWPORT8 MenuViewport;
+			CTkMenuCtrlData();
+			~CTkMenuCtrlData();
+			void SetResourceData(CTkMenuData*);
+			void RemoveResourceData();
+			void SaveCursolInfo();
+			void LoadCursolInfo();
+			void SetCursolNoSelect(int);
+			void SetCursol(int, int);
+			void RepositionCursol(int);
+			void SetButtonHelp();
+			void AddPrimitive();
+			void RemovePrimitive();
+			void DestroyPrimitive();
+			void CloseCallback();
+			void InitialSetMessage();
+			void DestroySetMessage();
+			void OnDraw();
+			void OnActive(bool);
+			void OnKeyDown(int);
+			void ReInit();
+			void DoSomething();
+			void startSizWindow();
+			void endSizWindow();
+			void GetWindowLocate(TKRECT*);
+			void GetWindowLocateCompen(TKRECT*);
+			void GetOriginalRect(TKRECT*);
+			short GetDrawLocalOffsetX();
+			short GetDrawLocalOffsetY();
+			void ReqWindowClose(char);
+			void ResizeWindow(short, short, short, short, char, char, char);
+			void BlurFrame(KaWindow*, short, short, short, short);
+			void BlurFrame(_49SubList*, short, short, short, short);
+			void Blur4Draw(_49SubList*, int, int, int, int);
+			void Blur4DrawHelper(_49SubList*, int, int, float, float, int, int);
+			bool GetTargetButtonPoint(tagPOINT*);
+			bool IsOnWindow(const tagPOINT&);
+			short IsOnButton(const tagPOINT&, bool*);
+			char* GetSomeHelpText();
+			char* GetSomeTitleText();
+			CTkDrawCtrlButton* GetDrawCtrlButton(unsigned short);
+			void GetButtonLocate(TKRECT*, short, bool, bool);
+			void SetButtonLocate(TKRECT*, short);
+			void SetButtonStatus(int, int);
+			void DisableDrawButton(short, bool);
+			CTkDrawCtrlFrame* GetDrawCtrlFrame();
+
+			CTkMenuData* MenuData;
+			CTkDrawCtrlButton* field_8;
+			CTkMenuPrimitive* MenuPrimitive;
+			int field_10;
+			CTkObList DrawCtrlList;
+			char field_30;
+			char field_31;
+			char field_32;
+			char field_33;
+			int field_34;
+			short field_38;
+			TKRECT field_3A;
+			TKRECT field_42;
+			short field_4A;
+			short field_4C;
+			short field_4E;
+			short field_50;
+			short field_52;
+			short field_54;
+			short field_56;
+			unsigned short DrawCtrlButtonCount;
+			short field_5A;
+			char field_5C;
+			char field_5D;
+			short field_5E;
+			char MaybeDrawLayer;
+			char field_61;
+			char field_62;
+			char field_63;
+			short field_64;
+			short field_66;
+			char field_68;
+			char field_69;
+			char field_6A;
+			char field_6B;
+			char field_6C;
+			char field_6D;
+			char field_6E;
+			char field_6F;
+			char field_70;
+			unsigned char field_71;
+			char field_72;
+			char field_73;
+			char field_74;
+			char field_75;
+			char field_76;
+			char field_77;
+			char field_78;
+			char field_79;
+			char field_7A;
+			char field_7B;
+			void(__cdecl* CallbackClose)(int, int);
+			int field_80;
+			char field_84;
+			char field_85;
+			char field_86;
+			char field_87;
+			void* ScrollBar;
+			short field_8C;
+			short field_8E;
+			short field_90;
+			short field_92;
+			int field_94;
+			char field_98;
+			char field_99;
+			char field_9A;
+			char field_9B;
+			short field_9C;
+			short field_9E;
+			short field_A0;
+			short field_A2;
+			int field_A4;
+			int field_A8;
+			int field_AC;
+			int field_B0;
+			int field_B4;
+			short field_B8;
+			short field_BA;
+			short field_BC;
+			short field_BE;
+			short field_C0;
+			short field_C2;
+			char field_C4;
+			char field_C5;
+			char field_C6;
+			char field_C7;
+			CTkObject* field_C8;
+			char field_C9;
+			char field_CA;
+			char field_CB;
+			int field_CC;
+			char field_D0;
+			char field_D1;
+			char field_D2;
+			char field_D3;
+		};
+	}
+}

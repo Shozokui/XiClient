@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{b6a1ae82-0a01-4a5f-aafb-05e8bfc1f234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\IO">
+      <UniqueIdentifier>{69cc948a-e26a-4dab-80bb-82e22576c17b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UI">
+      <UniqueIdentifier>{ce6ce767-d614-456e-b70d-03a44386357a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UI\Components">
+      <UniqueIdentifier>{8e9c7b1e-d633-483b-907f-4d52aa2be2ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UI\Windows">
+      <UniqueIdentifier>{13cdfed9-9dd0-468a-bdd8-a06c2c87a30a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{5cd92d1f-9927-4c85-94ec-dd2e60df0230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\imgui">
+      <UniqueIdentifier>{0843a155-4bc1-4bb7-a199-e38aa6025efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\nfd">
+      <UniqueIdentifier>{1d2d6cdc-3d4a-42de-ad45-9a935bd7ad51}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DATio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="XIDirMng.cpp">
+      <Filter>src\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoneDropDown.cpp">
+      <Filter>src\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>src\UI\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>Libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\backends\imgui_impl_dx9.cpp">
+      <Filter>Libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\backends\imgui_impl_win32.cpp">
+      <Filter>Libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="nfd\nfd_win.cpp">
+      <Filter>Libraries\nfd</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>src\UI\Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="XIDirMng.h">
+      <Filter>src\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoneDropDown.h">
+      <Filter>src\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>src\UI\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\backends\imgui_impl_dx9.h">
+      <Filter>Libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\backends\imgui_impl_win32.h">
+      <Filter>Libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="nfd\include\nfd.h">
+      <Filter>Libraries\nfd</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>src\UI\Windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nfd\nfd_cocoa.m">
+      <Filter>Libraries\nfd</Filter>
+    </None>
+  </ItemGroup>
+</Project>

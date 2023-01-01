@@ -1,0 +1,824 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6dca6a2e-af2e-4acf-ba66-779b2bff30ce}</ProjectGuid>
+    <RootNamespace>XiClient</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+    <ProjectName>XIClient</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <LibraryWPath>$(LibraryWPath)</LibraryWPath>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);XIClient_EXPORTS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)DirectShow;%(AdditionalIncludeDirectories)$(ProjectDir)DirectShow</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Dinput8.lib;Imm32.lib;dsound.lib;Dxguid.lib;d3d9.lib;d3dx9.lib;winmm.lib;Strmiids.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);XIClient_EXPORTS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)DirectShow;%(AdditionalIncludeDirectories)$(ProjectDir)DirectShow</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Dinput8.lib;Imm32.lib;dsound.lib;Dxguid.lib;d3d9.lib;d3dx9.lib;winmm.lib;Strmiids.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);XIClient_EXPORTS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)DirectShow</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);XIClient_EXPORTS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)DirectShow;%(AdditionalIncludeDirectories)$(ProjectDir)DirectShow</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;winmm.lib;Strmiids.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="a32or27thing.cpp" />
+    <ClCompile Include="AnotherSubStruct.cpp" />
+    <ClCompile Include="BaseProcessor.cpp" />
+    <ClCompile Include="BlendStruct.cpp" />
+    <ClCompile Include="CAcc.cpp" />
+    <ClCompile Include="CAcc2.cpp" />
+    <ClCompile Include="CApp.cpp" />
+    <ClCompile Include="CDx.cpp" />
+    <ClCompile Include="CFsConf6Win.cpp" />
+    <ClCompile Include="CFsGameConfigMenu.cpp" />
+    <ClCompile Include="CFsTitleConfigMenu.cpp" />
+    <ClCompile Include="CGcMainSys.cpp" />
+    <ClCompile Include="CIwChfWin.cpp" />
+    <ClCompile Include="CIwFaceMenu.cpp" />
+    <ClCompile Include="CIwHairMenu.cpp" />
+    <ClCompile Include="CIwJobsMenu.cpp" />
+    <ClCompile Include="CIwLicenceMenu.cpp" />
+    <ClCompile Include="CIwLobbyMenu.cpp" />
+    <ClCompile Include="CIwMenu.cpp" />
+    <ClCompile Include="CIwNetWin.cpp" />
+    <ClCompile Include="CIwNetWinSub1.cpp" />
+    <ClCompile Include="CIwOkMenu.cpp" />
+    <ClCompile Include="CIwOnePic.cpp" />
+    <ClCompile Include="CIwPatchSub4.cpp" />
+    <ClCompile Include="CIwPtcBgWin.cpp" />
+    <ClCompile Include="CIwRaceMenu.cpp" />
+    <ClCompile Include="CIwSelectMenu.cpp" />
+    <ClCompile Include="CIwSizeMenu.cpp" />
+    <ClCompile Include="CIwTopMenu.cpp" />
+    <ClCompile Include="CKaTarget.cpp" />
+    <ClCompile Include="CMoCamera.cpp" />
+    <ClCompile Include="CMoCameraTask.cpp" />
+    <ClCompile Include="CMoCib.cpp" />
+    <ClCompile Include="CMoD3a.cpp" />
+    <ClCompile Include="CMoD3aElem.cpp" />
+    <ClCompile Include="CMoD3b.cpp" />
+    <ClCompile Include="CMoD3bElem.cpp" />
+    <ClCompile Include="CMoD3m.cpp" />
+    <ClCompile Include="CMoD3mElem.cpp" />
+    <ClCompile Include="CMoD3mSpecialElem.cpp" />
+    <ClCompile Include="CMoD3mSpecularElem.cpp" />
+    <ClCompile Include="CMoDisplayColorTask.cpp" />
+    <ClCompile Include="CMoDistElem.cpp" />
+    <ClCompile Include="CMoDistModelElem.cpp" />
+    <ClCompile Include="CMoDistMorphElem.cpp" />
+    <ClCompile Include="CMoDx.cpp" />
+    <ClCompile Include="CMoDxStatusMng.cpp" />
+    <ClCompile Include="CMoElem.cpp" />
+    <ClCompile Include="CMoKeyframe.cpp" />
+    <ClCompile Include="CMoLfdElem.cpp" />
+    <ClCompile Include="CMoMmb.cpp" />
+    <ClCompile Include="CMoMo2.cpp" />
+    <ClCompile Include="CMoMzb.cpp" />
+    <ClCompile Include="CMoOcclusionMng.cpp" />
+    <ClCompile Include="CMoOs2.cpp" />
+    <ClCompile Include="CMoOT.cpp" />
+    <ClCompile Include="CMoOtTask.cpp" />
+    <ClCompile Include="CMoPathObject.cpp" />
+    <ClCompile Include="CMoPointLightProgElem.cpp" />
+    <ClCompile Include="CMoProcessor.cpp" />
+    <ClCompile Include="CMoResource.cpp" />
+    <ClCompile Include="CMoResourceMng.cpp" />
+    <ClCompile Include="CMoRid.cpp" />
+    <ClCompile Include="CMoSchedulerTask.cpp" />
+    <ClCompile Include="CMoSk2.cpp" />
+    <ClCompile Include="CMoSphRes.cpp" />
+    <ClCompile Include="CMoSpline.cpp" />
+    <ClCompile Include="CMoTask.cpp" />
+    <ClCompile Include="CMoTaskMng.cpp" />
+    <ClCompile Include="CMoTextureDisplayTask.cpp" />
+    <ClCompile Include="CMoVariant.cpp" />
+    <ClCompile Include="CMoVtx.cpp" />
+    <ClCompile Include="CMoVtxList.cpp" />
+    <ClCompile Include="CMoWeather.cpp" />
+    <ClCompile Include="CNtDebug.cpp" />
+    <ClCompile Include="CNtTcpDLL.cpp" />
+    <ClCompile Include="CNtTcpList.cpp" />
+    <ClCompile Include="CNtTcpQueueList.cpp" />
+    <ClCompile Include="CNtTcpThread.cpp" />
+    <ClCompile Include="CNtThreadSys.cpp" />
+    <ClCompile Include="CNtTimeSys.cpp" />
+    <ClCompile Include="CommandLineConfig.cpp" />
+    <ClCompile Include="CTkDrawCtrlButton.cpp" />
+    <ClCompile Include="CTkDrawCtrlCursol.cpp" />
+    <ClCompile Include="CTkDrawCtrlFrame.cpp" />
+    <ClCompile Include="CTkInputCtrl.cpp" />
+    <ClCompile Include="CTkMenuButton.cpp" />
+    <ClCompile Include="CTkMenuCtrlData.cpp" />
+    <ClCompile Include="CTkMenuCursol.cpp" />
+    <ClCompile Include="CTkMenuPrimitive.cpp" />
+    <ClCompile Include="CTkMouse.cpp" />
+    <ClCompile Include="CTkNode.cpp" />
+    <ClCompile Include="CTkObject.cpp" />
+    <ClCompile Include="CTkResourceID.cpp" />
+    <ClCompile Include="CTsZoneMap.cpp" />
+    <ClCompile Include="CMoAttachments.cpp" />
+    <ClCompile Include="CMoAttachmentsSubStruct.cpp" />
+    <ClCompile Include="CTsZoneMapSubStruct1.cpp" />
+    <ClCompile Include="CXiActor.cpp" />
+    <ClCompile Include="CXiActorDraw.cpp" />
+    <ClCompile Include="CXiAtelActor.cpp" />
+    <ClCompile Include="CXiCollisionActor.cpp" />
+    <ClCompile Include="CXiControlActor.cpp" />
+    <ClCompile Include="CXiDancerActor.cpp" />
+    <ClCompile Include="CXiDollActor.cpp" />
+    <ClCompile Include="CXiSkeletonActor.cpp" />
+    <ClCompile Include="CXiSkeletonActorRes.cpp" />
+    <ClCompile Include="CYyAdvancedDt.cpp" />
+    <ClCompile Include="CYyBasicDt.cpp" />
+    <ClCompile Include="CYyCamMng2.cpp" />
+    <ClCompile Include="CYyFileLoadTask.cpp" />
+    <ClCompile Include="CYyGenerator.cpp" />
+    <ClCompile Include="CYyGeneratorClone.cpp" />
+    <ClCompile Include="CYyIcon.cpp" />
+    <ClCompile Include="CYyModel.cpp" />
+    <ClCompile Include="CYyModelBase.cpp" />
+    <ClCompile Include="CYyModelDt.cpp" />
+    <ClCompile Include="CYyMotionMan.cpp" />
+    <ClCompile Include="CYyMotionQue.cpp" />
+    <ClCompile Include="CYyMotionQueList.cpp" />
+    <ClCompile Include="CYyMusicLoadTask.cpp" />
+    <ClCompile Include="CYyNode.cpp" />
+    <ClCompile Include="CYyOs2VtxBuffer.cpp" />
+    <ClCompile Include="CYyQue.cpp" />
+    <ClCompile Include="CYyReferenceReadTask.cpp" />
+    <ClCompile Include="CYyResfList.cpp" />
+    <ClCompile Include="CYyScheduler.cpp" />
+    <ClCompile Include="CYySepRes.cpp" />
+    <ClCompile Include="CYySkl.cpp" />
+    <ClCompile Include="CYySoundElem.cpp" />
+    <ClCompile Include="CYyTex.cpp" />
+    <ClCompile Include="CYyTexBase.cpp" />
+    <ClCompile Include="DatIndices.cpp" />
+    <ClCompile Include="DirectShow\amextra.cpp" />
+    <ClCompile Include="DirectShow\amfilter.cpp" />
+    <ClCompile Include="DirectShow\amvideo.cpp" />
+    <ClCompile Include="DirectShow\arithutil.cpp" />
+    <ClCompile Include="DirectShow\combase.cpp" />
+    <ClCompile Include="DirectShow\cprop.cpp" />
+    <ClCompile Include="DirectShow\ctlutil.cpp" />
+    <ClCompile Include="DirectShow\ddmm.cpp" />
+    <ClCompile Include="DirectShow\dllentry.cpp" />
+    <ClCompile Include="DirectShow\dllsetup.cpp" />
+    <ClCompile Include="DirectShow\mtype.cpp" />
+    <ClCompile Include="DirectShow\outputq.cpp" />
+    <ClCompile Include="DirectShow\perflog.cpp" />
+    <ClCompile Include="DirectShow\pstream.cpp" />
+    <ClCompile Include="DirectShow\pullpin.cpp" />
+    <ClCompile Include="DirectShow\refclock.cpp" />
+    <ClCompile Include="DirectShow\renbase.cpp" />
+    <ClCompile Include="DirectShow\schedule.cpp" />
+    <ClCompile Include="DirectShow\seekpt.cpp" />
+    <ClCompile Include="DirectShow\source.cpp" />
+    <ClCompile Include="DirectShow\strmctl.cpp" />
+    <ClCompile Include="DirectShow\sysclock.cpp" />
+    <ClCompile Include="DirectShow\transfrm.cpp" />
+    <ClCompile Include="DirectShow\transip.cpp" />
+    <ClCompile Include="DirectShow\videoctl.cpp" />
+    <ClCompile Include="DirectShow\vtrans.cpp" />
+    <ClCompile Include="DirectShow\winctrl.cpp" />
+    <ClCompile Include="DirectShow\winutil.cpp" />
+    <ClCompile Include="DirectShow\wxdebug.cpp" />
+    <ClCompile Include="DirectShow\wxlist.cpp" />
+    <ClCompile Include="DirectShow\wxutil.cpp" />
+    <ClCompile Include="Floats.cpp" />
+    <ClCompile Include="FsCallbackListLink.cpp" />
+    <ClCompile Include="FsConfig.cpp" />
+    <ClCompile Include="FsConfigSubject.cpp" />
+    <ClCompile Include="GeneratorTask.cpp" />
+    <ClCompile Include="GlobalStruct.cpp" />
+    <ClCompile Include="ISAACRandom.cpp" />
+    <ClCompile Include="KO_Path.cpp" />
+    <ClCompile Include="KzCib.cpp" />
+    <ClCompile Include="KzCibCollect.cpp" />
+    <ClCompile Include="KzFQuat.cpp" />
+    <ClCompile Include="LittleStruct.cpp" />
+    <ClCompile Include="MapChunk.cpp" />
+    <ClCompile Include="md5.cpp" />
+    <ClCompile Include="ModelSubStruct1.cpp" />
+    <ClCompile Include="ModelSubStruct2.cpp" />
+    <ClCompile Include="ModelSubStruct5.cpp" />
+    <ClCompile Include="MotionReferenceRead.cpp" />
+    <ClCompile Include="PolVars.cpp" />
+    <ClCompile Include="ReallyBigStruct.cpp" />
+    <ClCompile Include="ResourceList.cpp" />
+    <ClCompile Include="RidManager.cpp" />
+    <ClCompile Include="RuntimeConfig.cpp" />
+    <ClCompile Include="SomeCMoObj.cpp" />
+    <ClCompile Include="OTStruct.cpp" />
+    <ClCompile Include="SomeVertexThing.cpp" />
+    <ClCompile Include="SoundBuff1.cpp" />
+    <ClCompile Include="SoundMng.cpp" />
+    <ClCompile Include="CommandHandlers.cpp" />
+    <ClInclude Include="AnotherSubStruct.h" />
+    <ClInclude Include="AudioFileHeader.h" />
+    <ClInclude Include="BaseProcessor.h" />
+    <ClInclude Include="BlendStruct.h" />
+    <ClInclude Include="CFsConf6Win.h" />
+    <ClInclude Include="CFsGameConfigMenu.h" />
+    <ClInclude Include="CFsTitleConfigMenu.h" />
+    <ClInclude Include="CGcMainSys.h" />
+    <ClInclude Include="CIwChfWin.h" />
+    <ClInclude Include="CIwFaceMenu.h" />
+    <ClInclude Include="CIwHairMenu.h" />
+    <ClInclude Include="CIwJobsMenu.h" />
+    <ClInclude Include="CIwLicenceMenu.h" />
+    <ClInclude Include="CIwMenu.h" />
+    <ClInclude Include="CIwNetWin.h" />
+    <ClInclude Include="CIwOkMenu.h" />
+    <ClInclude Include="CIwOnePic.h" />
+    <ClInclude Include="CIwPatchSub4.h" />
+    <ClInclude Include="CIwPtcBgWin.h" />
+    <ClInclude Include="CIwRaceMenu.h" />
+    <ClInclude Include="CIwSelectMenu.h" />
+    <ClInclude Include="CIwSizeMenu.h" />
+    <ClInclude Include="CKaTarget.h" />
+    <ClInclude Include="CMoCamera.h" />
+    <ClInclude Include="CMoCameraTask.h" />
+    <ClInclude Include="CMoCib.h" />
+    <ClInclude Include="CMoD3a.h" />
+    <ClInclude Include="CMoD3aElem.h" />
+    <ClInclude Include="CMoD3b.h" />
+    <ClInclude Include="CMoD3bElem.h" />
+    <ClInclude Include="CMoD3m.h" />
+    <ClInclude Include="CMoD3mElem.h" />
+    <ClInclude Include="CMoD3mSpecialElem.h" />
+    <ClInclude Include="CMoD3mSpecularElem.h" />
+    <ClInclude Include="CMoDisplayColorTask.h" />
+    <ClInclude Include="CMoDistElem.h" />
+    <ClInclude Include="CMoDistModelElem.h" />
+    <ClInclude Include="CMoDistMorphElem.h" />
+    <ClInclude Include="CMoDx.h" />
+    <ClInclude Include="CMoDxStatusMng.h" />
+    <ClInclude Include="CMoElem.h" />
+    <ClInclude Include="CMoKeyframe.h" />
+    <ClInclude Include="CMoLfdElem.h" />
+    <ClInclude Include="CMoMmb.h" />
+    <ClInclude Include="CMoMo2.h" />
+    <ClInclude Include="CMoMzb.h" />
+    <ClInclude Include="CMoOcclusionMng.h" />
+    <ClInclude Include="CMoOs2.h" />
+    <ClInclude Include="CMoOT.h" />
+    <ClInclude Include="CMoOtTask.h" />
+    <ClInclude Include="CMoPathObject.h" />
+    <ClInclude Include="CMoPointLightProgElem.h" />
+    <ClInclude Include="CMoProcessor.h" />
+    <ClInclude Include="CMoRid.h" />
+    <ClInclude Include="CMoSchedulerTask.h" />
+    <ClInclude Include="CMoSk2.h" />
+    <ClInclude Include="CMoSphRes.h" />
+    <ClInclude Include="CMoSpline.h" />
+    <ClInclude Include="CMoTextureDisplayTask.h" />
+    <ClInclude Include="CMoVariant.h" />
+    <ClInclude Include="CMoVtx.h" />
+    <ClInclude Include="CMoVtxList.h" />
+    <ClInclude Include="CMoWeather.h" />
+    <ClInclude Include="CNtDebug.h" />
+    <ClInclude Include="CNtDLLInitStruct.h" />
+    <ClInclude Include="CNtTcpDLL.h" />
+    <ClInclude Include="CommandLineConfig.h" />
+    <ClInclude Include="ContentIDInfo.h" />
+    <ClInclude Include="CXiActor.h" />
+    <ClInclude Include="CXiActorDraw.h" />
+    <ClInclude Include="CXiAtelActor.h" />
+    <ClInclude Include="CXiCollisionActor.h" />
+    <ClInclude Include="CXiControlActor.h" />
+    <ClInclude Include="CXiDancerActor.h" />
+    <ClInclude Include="CXiDollActor.h" />
+    <ClInclude Include="CXiSkeletonActor.h" />
+    <ClInclude Include="CXiSkeletonActorRes.h" />
+    <ClInclude Include="CYyAdvancedDt.h" />
+    <ClInclude Include="CYyBasicDt.h" />
+    <ClInclude Include="CYyFileLoadTask.h" />
+    <ClInclude Include="CYyGeneratorClone.h" />
+    <ClInclude Include="CYyModel.h" />
+    <ClInclude Include="CYyModelBase.h" />
+    <ClInclude Include="CYyModelDt.h" />
+    <ClInclude Include="CYyMotionMan.h" />
+    <ClInclude Include="CYyMotionQue.h" />
+    <ClInclude Include="CYyMotionQueList.h" />
+    <ClInclude Include="CYyNode.h" />
+    <ClInclude Include="CYyOs2VtxBuffer.h" />
+    <ClInclude Include="CYyQue.h" />
+    <ClInclude Include="CYyReferenceReadWithAttachmentTask.h" />
+    <ClInclude Include="CYyResfList.h" />
+    <ClInclude Include="CYySkl.h" />
+    <ClInclude Include="CYySoundElem.h" />
+    <ClInclude Include="DirectShow\amextra.h" />
+    <ClInclude Include="DirectShow\amfilter.h" />
+    <ClInclude Include="DirectShow\cache.h" />
+    <ClInclude Include="DirectShow\combase.h" />
+    <ClInclude Include="DirectShow\cprop.h" />
+    <ClInclude Include="DirectShow\ctlutil.h" />
+    <ClInclude Include="DirectShow\ddmm.h" />
+    <ClInclude Include="DirectShow\dllsetup.h" />
+    <ClInclude Include="DirectShow\dxmperf.h" />
+    <ClInclude Include="DirectShow\fourcc.h" />
+    <ClInclude Include="DirectShow\measure.h" />
+    <ClInclude Include="DirectShow\msgthrd.h" />
+    <ClInclude Include="DirectShow\mtype.h" />
+    <ClInclude Include="DirectShow\outputq.h" />
+    <ClInclude Include="DirectShow\perflog.h" />
+    <ClInclude Include="DirectShow\perfstruct.h" />
+    <ClInclude Include="DirectShow\pstream.h" />
+    <ClInclude Include="DirectShow\pullpin.h" />
+    <ClInclude Include="DirectShow\refclock.h" />
+    <ClInclude Include="DirectShow\reftime.h" />
+    <ClInclude Include="DirectShow\renbase.h" />
+    <ClInclude Include="DirectShow\schedule.h" />
+    <ClInclude Include="DirectShow\seekpt.h" />
+    <ClInclude Include="DirectShow\source.h" />
+    <ClInclude Include="DirectShow\streams.h" />
+    <ClInclude Include="DirectShow\strmctl.h" />
+    <ClInclude Include="DirectShow\sysclock.h" />
+    <ClInclude Include="DirectShow\transfrm.h" />
+    <ClInclude Include="DirectShow\transip.h" />
+    <ClInclude Include="DirectShow\videoctl.h" />
+    <ClInclude Include="DirectShow\vtrans.h" />
+    <ClInclude Include="DirectShow\winctrl.h" />
+    <ClInclude Include="DirectShow\winutil.h" />
+    <ClInclude Include="DirectShow\wxdebug.h" />
+    <ClInclude Include="DirectShow\wxlist.h" />
+    <ClInclude Include="DirectShow\wxutil.h" />
+    <ClInclude Include="EquipReferenceRead.h" />
+    <ClInclude Include="FsCallbackListLink.h" />
+    <ClInclude Include="FsConfig.h" />
+    <ClInclude Include="FsConfigSubject.h" />
+    <ClInclude Include="FVF104Vertex.h" />
+    <ClInclude Include="FVF152Vertex.h" />
+    <ClInclude Include="FVF42Vertex.h" />
+    <ClInclude Include="GeneratorTask.h" />
+    <ClInclude Include="KO_Path.h" />
+    <ClInclude Include="ModelSubStruct1.h" />
+    <ClInclude Include="ModelSubStruct2.h" />
+    <ClInclude Include="ModelSubStruct5.h" />
+    <ClInclude Include="MotionManStaticStruct.h" />
+    <ClInclude Include="MotionReferenceRead.h" />
+    <ClInclude Include="RaceModelTables.h" />
+    <ClInclude Include="KzCib.h" />
+    <ClInclude Include="KzCibCollect.h" />
+    <ClInclude Include="lpkt_work.h" />
+    <ClInclude Include="CNtTcpList.h" />
+    <ClInclude Include="CNtTcpQueue.h" />
+    <ClInclude Include="CNtTcpQueueList.h" />
+    <ClInclude Include="CNtTcpThread.h" />
+    <ClInclude Include="CNtThreadSys.h" />
+    <ClInclude Include="CNtTimeSys.h" />
+    <ClInclude Include="CNtUdpSys.h" />
+    <ClInclude Include="CTkDrawCtrlButton.h" />
+    <ClInclude Include="CTkDrawCtrlCursol.h" />
+    <ClInclude Include="CTkDrawCtrlFrame.h" />
+    <ClInclude Include="CTkEventMsg.h" />
+    <ClInclude Include="CTkHelp.h" />
+    <ClInclude Include="CTkInputCtrl.h" />
+    <ClInclude Include="CTkMenuButton.h" />
+    <ClInclude Include="CTkMenuCtrlData.h" />
+    <ClInclude Include="CTkMenuCursol.h" />
+    <ClInclude Include="CTkMenuPrimitive.h" />
+    <ClInclude Include="CTkResourceID.h" />
+    <ClInclude Include="CTkTitle.h" />
+    <ClInclude Include="CTsZoneMap.h" />
+    <ClInclude Include="CTsZoneMapSubStruct1.h" />
+    <ClInclude Include="CMoAttachments.h" />
+    <ClInclude Include="CMoAttachmentsSubStruct.h" />
+    <ClInclude Include="CYyGenerator.h" />
+    <ClInclude Include="CYyIcon.h" />
+    <ClInclude Include="CYyMusicLoadTask.h" />
+    <ClInclude Include="CYyScheduler.h" />
+    <ClInclude Include="CYySepRes.h" />
+    <ClInclude Include="FsKeyboard.h" />
+    <ClInclude Include="FsMenuDraw.h" />
+    <ClInclude Include="FsPad.h" />
+    <ClInclude Include="FsTextInput.h" />
+    <ClInclude Include="CNtGame.h" />
+    <ClInclude Include="CIwNetWinSub1.h" />
+    <ClInclude Include="CIwLobbyMenu.h" />
+    <ClInclude Include="CIwTopMenu.h" />
+    <ClInclude Include="ISAACRandom.h" />
+    <ClInclude Include="KzFQuat.h" />
+    <ClInclude Include="MapChunk.h" />
+    <ClInclude Include="md5.h" />
+    <ClInclude Include="MiniStruct.h" />
+    <ClInclude Include="MmbListNode.h" />
+    <ClInclude Include="MmbStruct.h" />
+    <ClInclude Include="MmbStruct2.h" />
+    <ClInclude Include="RealmInfo.h" />
+    <ClInclude Include="ReferenceReadBase.h" />
+    <ClInclude Include="CYyReferenceReadTask.h" />
+    <ClInclude Include="ResourceList.h" />
+    <ClInclude Include="RidListNode.h" />
+    <ClInclude Include="RidManager.h" />
+    <ClInclude Include="RidStruct.h" />
+    <ClInclude Include="RuntimeClass.h" />
+    <ClInclude Include="RuntimeConfig.h" />
+    <ClInclude Include="SomeCMoObj.h" />
+    <ClInclude Include="OTStruct.h" />
+    <ClInclude Include="SomeStruct.h" />
+    <ClInclude Include="MmbManager.h" />
+    <ClInclude Include="LittleStruct.h" />
+    <ClInclude Include="SomeVertexThing.h" />
+    <ClInclude Include="SVTSStorage.h" />
+    <ClInclude Include="StatusNode.h" />
+    <ClInclude Include="StDancer.h" />
+    <ClInclude Include="TexHelper.h" />
+    <ClInclude Include="Submodel.h" />
+    <ClInclude Include="toml++\toml.hpp" />
+    <ClInclude Include="UdpSubStruct.h" />
+    <ClInclude Include="IwManager.h" />
+    <ClInclude Include="KaWindow.h" />
+    <ClInclude Include="MojiDraw.h" />
+    <ClInclude Include="CYyMeb.h" />
+    <ClInclude Include="CTkMenuData.h" />
+    <ClInclude Include="CTkMenuFrame.h" />
+    <ClInclude Include="MusicServer.h" />
+    <ClInclude Include="PlaceHolders.h" />
+    <ClInclude Include="PrimTableEntry.h" />
+    <ClInclude Include="ReallyBigStruct.h" />
+    <ClInclude Include="StringTables.h" />
+    <ClInclude Include="Task.h" />
+    <ClInclude Include="TaskBuff.h" />
+    <ClInclude Include="TextRenderer.h" />
+    <ClInclude Include="TkRect.h" />
+    <ClInclude Include="UnderscoreAtStruct.h" />
+    <ClInclude Include="VbList.h" />
+    <ClInclude Include="WeatherResource.h" />
+    <ClInclude Include="WeatherResources.h" />
+    <ClInclude Include="WindowManager.h" />
+    <ClInclude Include="WMatrix.h" />
+    <ClInclude Include="CTkMouse.h" />
+    <ClInclude Include="CYyCamMng2.h" />
+    <ClInclude Include="FuncSigs.h" />
+    <ClCompile Include="FsKeyboard.cpp" />
+    <ClCompile Include="FsMenuDraw.cpp" />
+    <ClCompile Include="FuncSigs.cpp" />
+    <ClCompile Include="CNtGame.cpp" />
+    <ClCompile Include="GetKeyHandlers.cpp" />
+    <ClCompile Include="IwManager.cpp" />
+    <ClCompile Include="KaWindow.cpp" />
+    <ClCompile Include="LobbyMainTask.cpp" />
+    <ClCompile Include="MojiDraw.cpp" />
+    <ClCompile Include="CYyMeb.cpp" />
+    <ClCompile Include="CTkMenuData.cpp" />
+    <ClCompile Include="CTkMenuFrame.cpp" />
+    <ClCompile Include="MusicServer.cpp" />
+    <ClInclude Include="PrimMng.h" />
+    <ClCompile Include="NT_SYS_BASE.cpp" />
+    <ClCompile Include="PrimMng.cpp" />
+    <ClCompile Include="SoundController.cpp" />
+    <ClCompile Include="MmbManager.cpp" />
+    <ClCompile Include="EquipReferenceRead.cpp" />
+    <ClCompile Include="StatusNode.cpp" />
+    <ClCompile Include="StDancer.cpp" />
+    <ClCompile Include="SVTSStorage.cpp" />
+    <ClCompile Include="TexHelper.cpp" />
+    <ClCompile Include="StringTables.cpp" />
+    <ClCompile Include="Task.cpp" />
+    <ClCompile Include="TaskBuff.cpp" />
+    <ClCompile Include="TextRenderer.cpp" />
+    <ClCompile Include="TkManager.cpp" />
+    <ClCompile Include="Type0Decode.cpp" />
+    <ClCompile Include="UnderscoreAtStruct.cpp" />
+    <ClCompile Include="VbList.cpp" />
+    <ClCompile Include="WeatherResources.cpp" />
+    <ClCompile Include="WeirdSoundThing.cpp" />
+    <ClCompile Include="WindowManager.cpp" />
+    <ClCompile Include="WinMsgHandler.cpp" />
+    <ClCompile Include="WMatrix.cpp" />
+    <ClCompile Include="XiArea.cpp" />
+    <ClCompile Include="XiAtelBuff.cpp" />
+    <ClCompile Include="XiColorEnv.cpp" />
+    <ClCompile Include="XiDancerActorPara.cpp" />
+    <ClCompile Include="XiDateTime.cpp" />
+    <ClCompile Include="XiFileStat.cpp" />
+    <ClCompile Include="XIString.cpp" />
+    <ClCompile Include="CYyMsb.cpp" />
+    <ClCompile Include="XiWeather.cpp" />
+    <ClCompile Include="XiWorldEnv.cpp" />
+    <ClCompile Include="XiZone.cpp" />
+    <ClCompile Include="YkManager.cpp" />
+    <ClCompile Include="YmCombineWeather.cpp" />
+    <ClCompile Include="CTkMsbData.cpp" />
+    <ClCompile Include="_49SubList.cpp" />
+    <ClCompile Include="_49SubListNode.cpp" />
+    <ClInclude Include="CTkMsbDataList.h" />
+    <ClCompile Include="CTkMsbDataList.cpp" />
+    <ClCompile Include="CTkMenuMng.cpp" />
+    <ClCompile Include="CTkMsgWinData.cpp" />
+    <ClCompile Include="CTkObList.cpp" />
+    <ClCompile Include="CXiMovie.cpp" />
+    <ClCompile Include="CXiOpening.cpp" />
+    <ClCompile Include="CYyTexMng.cpp" />
+    <ClCompile Include="CYyVb.cpp" />
+    <ClCompile Include="CYyVbMng.cpp" />
+    <ClCompile Include="d3d8to9\d3d8to9.cpp" />
+    <ClCompile Include="d3d8to9\d3d8to9_base.cpp" />
+    <ClCompile Include="d3d8to9\d3d8to9_device.cpp" />
+    <ClCompile Include="d3d8to9\d3d8to9_index_buffer.cpp" />
+    <ClCompile Include="d3d8to9\d3d8to9_surface.cpp" />
+    <ClCompile Include="d3d8to9\d3d8to9_swap_chain.cpp" />
+    <ClCompile Include="d3d8to9\d3d8to9_texture.cpp" />
+    <ClCompile Include="d3d8to9\d3d8to9_vertex_buffer.cpp" />
+    <ClCompile Include="d3d8to9\d3d8to9_volume.cpp" />
+    <ClCompile Include="d3d8to9\d3d8types.cpp" />
+    <ClCompile Include="d3d8to9\interface_query.cpp" />
+    <ClCompile Include="DMsg.cpp" />
+    <ClCompile Include="DxGamma.cpp" />
+    <ClCompile Include="CEnv.cpp" />
+    <ClCompile Include="CXITimer.cpp" />
+    <ClCompile Include="CXITimerLow.cpp" />
+    <ClCompile Include="CYyLowerMemory.cpp" />
+    <ClCompile Include="CYyObject.cpp" />
+    <ClCompile Include="CYyUpperMemory.cpp" />
+    <ClCompile Include="InputMng.cpp" />
+    <ClCompile Include="FFXIDX.cpp" />
+    <ClCompile Include="FFXIRegistry.cpp" />
+    <ClCompile Include="FsErrorQueue.cpp" />
+    <ClCompile Include="FsFileEvent.cpp" />
+    <ClCompile Include="FsFileQueue.cpp" />
+    <ClCompile Include="FsSemaphore.cpp" />
+    <ClCompile Include="FsSleeper.cpp" />
+    <ClCompile Include="FsThread.cpp" />
+    <ClCompile Include="FsFileThreadManager.cpp" />
+    <ClCompile Include="FsFileThreadSync.cpp" />
+    <ClCompile Include="Globals.cpp" />
+    <ClCompile Include="XIClient.cpp" />
+    <ClCompile Include="NT_SYS.cpp" />
+    <ClCompile Include="ResourcePreHeader.cpp" />
+    <ClCompile Include="CYyDb.cpp" />
+    <ClCompile Include="SomeTaskType.cpp" />
+    <ClCompile Include="StorageListObject.cpp" />
+    <ClCompile Include="Subtitles.cpp" />
+    <ClCompile Include="UnknownClass.cpp" />
+    <ClCompile Include="UnknownStructSub1.cpp" />
+    <ClCompile Include="VideoRenderer.cpp" />
+    <ClCompile Include="XIFileBase.cpp" />
+    <ClCompile Include="XIFileImpl.cpp" />
+    <ClCompile Include="CYyResourceFile.cpp" />
+    <ClCompile Include="CYyBmp2.cpp" />
+    <ClInclude Include="a32or27thing.h" />
+    <ClInclude Include="CEnv.h" />
+    <ClInclude Include="CMoResource.h" />
+    <ClInclude Include="CMoResourceMng.h" />
+    <ClInclude Include="CMoTask.h" />
+    <ClInclude Include="CMoTaskMng.h" />
+    <ClInclude Include="CTkMenuMng.h" />
+    <ClInclude Include="CTkMsgWinData.h" />
+    <ClInclude Include="CTkNode.h" />
+    <ClInclude Include="CTkObject.h" />
+    <ClInclude Include="CTkObList.h" />
+    <ClInclude Include="CXiMovie.h" />
+    <ClInclude Include="CXiOpening.h" />
+    <ClInclude Include="CXITimer.h" />
+    <ClInclude Include="CYyElemMemory.h" />
+    <ClInclude Include="CYyTex.h" />
+    <ClInclude Include="CYyTexBase.h" />
+    <ClInclude Include="CYyTexMng.h" />
+    <ClInclude Include="CYyVb.h" />
+    <ClInclude Include="CYyVbMng.h" />
+    <ClInclude Include="CYyWorkMemory.h" />
+    <ClInclude Include="CYyLoadMemory.h" />
+    <ClInclude Include="CYyMenuMemory.h" />
+    <ClInclude Include="CYyExMemory.h" />
+    <ClCompile Include="CYyElemMemory.cpp" />
+    <ClCompile Include="CYyWorkMemory.cpp" />
+    <ClCompile Include="CYyLoadMemory.cpp" />
+    <ClCompile Include="CYyMenuMemory.cpp" />
+    <ClCompile Include="CYyExMemory.cpp" />
+    <ClCompile Include="MemoryHeader.cpp" />
+    <ClCompile Include="StorageLists.cpp" />
+    <ClCompile Include="RegistryConfig.cpp" />
+    <ClCompile Include="XIFileManager.cpp" />
+    <ClInclude Include="CXITimerLow.h" />
+    <ClInclude Include="SoundMng.h" />
+    <ClInclude Include="CommandHandlers.h" />
+    <ClInclude Include="FVF44Vertex.h" />
+    <ClInclude Include="SoundBuff1.h" />
+    <ClInclude Include="SoundBuff2.h" />
+    <ClInclude Include="SoundController.h" />
+    <ClInclude Include="TkManager.h" />
+    <ClInclude Include="WeirdSoundThing.h" />
+    <ClInclude Include="XiArea.h" />
+    <ClInclude Include="XiAtelBuff.h" />
+    <ClInclude Include="XIClient.h" />
+    <ClInclude Include="XiColorEnv.h" />
+    <ClInclude Include="XiDancerActorPara.h" />
+    <ClInclude Include="XiDateTime.h" />
+    <ClInclude Include="XiFileStat.h" />
+    <ClInclude Include="XIString.h" />
+    <ClInclude Include="XiWeather.h" />
+    <ClInclude Include="XiWorldEnv.h" />
+    <ClInclude Include="XiZone.h" />
+    <ClInclude Include="YkManager.h" />
+    <ClInclude Include="YmCombineWeather.h" />
+    <ClInclude Include="Zoneline.h" />
+    <ClInclude Include="_49ListNode.h" />
+    <ClInclude Include="FVF144Vertex.h" />
+    <ClInclude Include="NT_SYS.h" />
+    <ClInclude Include="NT_SYS_BASE.h" />
+    <ClInclude Include="Subtitles.h" />
+    <ClInclude Include="UnknownClass.h" />
+    <ClInclude Include="VideoRenderer.h" />
+    <ClInclude Include="CYyResourceFile.h" />
+    <ClInclude Include="CYyBmp2.h" />
+    <ClInclude Include="CYyMsb.h" />
+    <ClInclude Include="CTkMsbData.h" />
+    <ClInclude Include="_49SubList.h" />
+    <ClInclude Include="_49SubListNode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAcc.h" />
+    <ClInclude Include="CAcc2.h" />
+    <ClInclude Include="CApp.h" />
+    <ClInclude Include="CDx.h" />
+    <ClInclude Include="d3d8to9\d3d8.hpp" />
+    <ClInclude Include="d3d8to9\d3d8to9.hpp" />
+    <ClInclude Include="d3d8to9\d3d8types.hpp" />
+    <ClInclude Include="d3d8to9\d3dx9.hpp" />
+    <ClInclude Include="d3d8to9\interface_query.hpp" />
+    <ClInclude Include="d3dx9math.h" />
+    <ClInclude Include="DatIndices.h" />
+    <ClInclude Include="DMsg.h" />
+    <ClInclude Include="DxGamma.h" />
+    <ClInclude Include="CYyLowerMemory.h" />
+    <ClInclude Include="CYyObject.h" />
+    <ClInclude Include="CYyUpperMemory.h" />
+    <ClInclude Include="InputMng.h" />
+    <ClInclude Include="Enums.h" />
+    <ClInclude Include="FFXIDX.h" />
+    <ClInclude Include="FFXIRegistry.h" />
+    <ClInclude Include="FsErrorQueue.h" />
+    <ClInclude Include="FsFileEvent.h" />
+    <ClInclude Include="FsFileQueue.h" />
+    <ClInclude Include="FsSemaphore.h" />
+    <ClInclude Include="FsSleeper.h" />
+    <ClInclude Include="FsThread.h" />
+    <ClInclude Include="FsFileThreadManager.h" />
+    <ClInclude Include="FsFileThreadSync.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="GlobalStruct.h" />
+    <ClInclude Include="MemoryHeader.h" />
+    <ClInclude Include="ResourceHeader.h" />
+    <ClInclude Include="ResourcePreHeader.h" />
+    <ClInclude Include="UnknownStructSub1.h" />
+    <ClInclude Include="Values.h" />
+    <ClInclude Include="CYyDb.h" />
+    <ClInclude Include="SomeTaskType.h" />
+    <ClInclude Include="StorageListObject.h" />
+    <ClInclude Include="StorageLists.h" />
+    <ClInclude Include="PolVars.h" />
+    <ClInclude Include="RegistryConfig.h" />
+    <ClInclude Include="Strings.h" />
+    <ClInclude Include="XIFileBase.h" />
+    <ClInclude Include="XIFileImpl.h" />
+    <ClInclude Include="XIFileManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Snippets.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

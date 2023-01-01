@@ -1,0 +1,2273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{074bb571-6e1e-4c41-a7cf-97a76b7d9cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\d3d8to9">
+      <UniqueIdentifier>{44fafa01-756b-4d5c-b965-13a80d17a956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{33673c18-a8b8-4a9b-8a53-b64920833f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI">
+      <UniqueIdentifier>{3af0410c-22cb-425b-84da-036fdcdffe22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\File">
+      <UniqueIdentifier>{facb1de8-8f51-4ea1-8b9e-e1f8a21285ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\File\ReferenceReads">
+      <UniqueIdentifier>{653bcc17-9a5b-4e29-b097-d74d12721bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\Constants">
+      <UniqueIdentifier>{803346fd-a2b2-47df-93ad-8dabf60c454a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\Msg">
+      <UniqueIdentifier>{a998c2a8-3b4b-41f7-8b07-89e088400a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\Sound">
+      <UniqueIdentifier>{b68f0cdd-7c65-4947-ab21-9006581aae1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\Time">
+      <UniqueIdentifier>{57e4c927-56de-4034-9491-be13127536a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\Text">
+      <UniqueIdentifier>{110a1ca0-e4f4-41d9-bc1e-42b3d8ee7f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy">
+      <UniqueIdentifier>{b2e3a67f-7665-4496-84ca-98af6d2afb0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\CApp">
+      <UniqueIdentifier>{8676738c-f46b-46ba-9f29-5851dd70b777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\Memory">
+      <UniqueIdentifier>{4e7bbb76-3518-45b2-b06a-193eadb4bf84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\CDx">
+      <UniqueIdentifier>{f3570e25-9afb-46f5-a547-a54ae4c1eae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\CDx\VertexTyypes">
+      <UniqueIdentifier>{f8a78b49-2d80-4c95-97f8-a507014f7fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\Timer">
+      <UniqueIdentifier>{c2369105-4496-4faf-8565-a1b13a251c27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\Task">
+      <UniqueIdentifier>{8d1dda48-8ab3-49ec-b061-5e4eaa06294d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\Task\Derived">
+      <UniqueIdentifier>{ad9dd3a8-18b4-4c2a-aa1a-a95d4a9507dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\Task\Derived\ZoneMapTask">
+      <UniqueIdentifier>{0f43c37e-6e92-492f-b607-103371dbe5b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\Task\Derived\Actor">
+      <UniqueIdentifier>{bbafbae7-8df4-41ae-92bb-138097371107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\Task\Derived\Generator">
+      <UniqueIdentifier>{0155f5a7-0b32-4b54-82ef-9330bef35b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\Task\Derived\Generator\Elem">
+      <UniqueIdentifier>{d30deadf-a11d-4845-8000-0a5619cdd39c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived">
+      <UniqueIdentifier>{6b3fd10a-82fe-45c3-be1e-144f0753401c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\Resource">
+      <UniqueIdentifier>{273e4da2-f6af-481f-80c7-00e4098bff83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\Resource\Derived">
+      <UniqueIdentifier>{36d85422-0ba4-4dd8-850f-3f58013535fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\Resource\Attachments">
+      <UniqueIdentifier>{9af00e9c-9c2c-4a5d-b207-c1d4516fada4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\Tex">
+      <UniqueIdentifier>{873c3509-0acb-4569-89a9-1d2b6bb17922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\XIOpening">
+      <UniqueIdentifier>{0c121d5d-faa7-4f10-bdec-dda67fef9265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\Camera">
+      <UniqueIdentifier>{d2e7002f-6399-4527-93c6-dc4338511fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\Zone">
+      <UniqueIdentifier>{17fbddc5-76b4-4ee9-8174-a62fd53a4bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\Processor">
+      <UniqueIdentifier>{75c79408-095e-49e1-94ef-f2d068073d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\Model">
+      <UniqueIdentifier>{03e1ddc3-d730-4f9c-85e3-10e9353a4ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\Model\Dt">
+      <UniqueIdentifier>{dd00c41e-aab7-4465-be25-af68b72260ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CYy\VertexBuffer">
+      <UniqueIdentifier>{7130183e-4216-42bc-a7d2-3e4a35aca4a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CTk">
+      <UniqueIdentifier>{61e62ec8-865b-4d02-a779-1732a067c26e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CTk\Menu">
+      <UniqueIdentifier>{23c98d17-97cc-4027-af42-9b328b6c0f1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CTk\Menu\Primitive">
+      <UniqueIdentifier>{b13122ea-4d5d-4bc3-8160-9307ef1f9a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CTk\Menu\Primitive\Derived">
+      <UniqueIdentifier>{cf9e47d9-0865-47ca-abc9-28f2c6828a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CIw">
+      <UniqueIdentifier>{1a8de957-09d1-44fa-9c17-c7021951875e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CFs">
+      <UniqueIdentifier>{00f1a0e7-9170-43c0-8565-a087d31574c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CTk">
+      <UniqueIdentifier>{234b86b9-ae80-410a-99d9-1d65c0bf9597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CTk\IwManager">
+      <UniqueIdentifier>{bbd100ca-42e9-4273-a2f9-85216ea46abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CTk\ListNodes">
+      <UniqueIdentifier>{8bbd76be-0681-4dd4-8100-87d5d8947a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\CTk\TkManager">
+      <UniqueIdentifier>{bc26b8c1-aed3-41d5-92d3-92b2e97fdf92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\Input">
+      <UniqueIdentifier>{2ab7d10c-94e6-4ec6-a30b-571d5e706e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\Config">
+      <UniqueIdentifier>{3e8e79db-1d72-49d2-bd68-2986d160a653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\Math">
+      <UniqueIdentifier>{a4e068f2-75e0-445f-b45c-2a93892154fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\Network">
+      <UniqueIdentifier>{d6f76d23-1294-41ea-b31b-957183ac11b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\Util">
+      <UniqueIdentifier>{82354d5e-10a9-4bf8-81b7-83d7dfa5d242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header Files\FFXI\Yk">
+      <UniqueIdentifier>{b33c500c-5a54-4675-a10e-5cecdd66a3d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI">
+      <UniqueIdentifier>{e9c6d598-1330-44c4-8604-0ca041015a58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\File">
+      <UniqueIdentifier>{1d44bb3d-a170-4ae5-997b-ca632c593379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\File\ReferenceReads">
+      <UniqueIdentifier>{1227c594-ec0f-4ee3-83f9-6a8e2071ecc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\Msg">
+      <UniqueIdentifier>{45b90d30-f85b-4269-9a3e-d24f09e39183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\Sound">
+      <UniqueIdentifier>{a271c492-5f01-4b29-bff4-a8b36b41ee62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\Time">
+      <UniqueIdentifier>{3414da73-0187-4c80-9572-8e3905fb774b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\Text">
+      <UniqueIdentifier>{202dd3f5-42a6-460f-9a87-a99f09329907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy">
+      <UniqueIdentifier>{11dd194b-1fe4-43c3-a815-debde62fc79f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\CApp">
+      <UniqueIdentifier>{4f189ac7-e915-40b8-aa8c-c9a6f2391dda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\Memory">
+      <UniqueIdentifier>{3eb1035b-74c2-472f-b21c-6f63c10ff886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\CDx">
+      <UniqueIdentifier>{75f859b7-738c-41f7-bc12-71bfd3825b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\Timer">
+      <UniqueIdentifier>{bf8993d5-eb9b-4e43-9b6c-5b6cea85b37c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\Task">
+      <UniqueIdentifier>{97178b04-aaaa-4b1c-9a6d-a6bffcad9478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\Task\Derived">
+      <UniqueIdentifier>{d4a73c3e-9ada-417d-afe2-a2e3b6f44266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\Task\Derived\ZoneMapTask">
+      <UniqueIdentifier>{eac57623-c566-41d7-948b-fef8605ffbab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\Task\Derived\Actor">
+      <UniqueIdentifier>{d748878c-9266-49e2-aa3b-3d22e906584b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\Task\Derived\Generator">
+      <UniqueIdentifier>{71f16297-f30b-4229-a008-8cd70b22cfa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\Task\Derived\Generator\Elem">
+      <UniqueIdentifier>{c85bdae4-dc6f-4b87-a83d-64af345b93be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived">
+      <UniqueIdentifier>{c595ae65-6e9a-464a-a270-751cd1b9df09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\Resource">
+      <UniqueIdentifier>{2f5432bb-6185-418f-94fb-ec4d28a5d420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\Resource\Derived">
+      <UniqueIdentifier>{941945f7-f96f-4fde-a904-4aa22f66ac8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\Resource\Attachments">
+      <UniqueIdentifier>{13f33d41-90e6-49a5-b7e1-c12c2fb48348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\Tex">
+      <UniqueIdentifier>{7e948dfc-fabc-468a-914c-1b122a91a045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\XIOpening">
+      <UniqueIdentifier>{070bc7a7-fa1d-4f83-98f2-6968b419aeec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\Camera">
+      <UniqueIdentifier>{31ff4cd4-ef5b-4891-af46-7f9676b0c252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\Zone">
+      <UniqueIdentifier>{b95f640d-a185-465c-b306-291ca22384fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\Processor">
+      <UniqueIdentifier>{738dddb1-70de-4ee0-8920-806c62ba4833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\Model">
+      <UniqueIdentifier>{0645240f-8c1b-4ebf-8179-260e00f31bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\Model\Dt">
+      <UniqueIdentifier>{9379b3f4-c503-448a-972d-c087cb1c1117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CYy\VertexBuffer">
+      <UniqueIdentifier>{f00c8e02-dcac-4f1b-8197-7a8da7f552ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CTk">
+      <UniqueIdentifier>{d0033eed-216f-46e7-94ac-7137783b5e15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CTk\Menu">
+      <UniqueIdentifier>{b26ebfec-1ab3-4a87-8259-fcaa267b5a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CTk\Menu\Primitive">
+      <UniqueIdentifier>{64694af0-3799-4cbe-b0fb-89853d8d2337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CTk\Menu\Primitive\Derived">
+      <UniqueIdentifier>{9f3fe846-984c-4290-b822-863b4c8d2e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CIw">
+      <UniqueIdentifier>{12542238-c4f4-4eac-97f3-e523bf42d8f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CFs">
+      <UniqueIdentifier>{c86e70ef-006c-4a7d-8ec9-503724a0f06b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CTk\IwManager">
+      <UniqueIdentifier>{e0ddba7d-ee00-47ec-8d6d-a93915beff91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CTk\ListNodes">
+      <UniqueIdentifier>{210c56f4-3495-4809-9aac-dfe7c1db7232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\CTk\TkManager">
+      <UniqueIdentifier>{3a5d7606-3a34-4c16-ac5e-daa3e3c023e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\Input">
+      <UniqueIdentifier>{edc27a92-39fe-48fc-97aa-cb9fe4519598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\Constants">
+      <UniqueIdentifier>{510b3a36-c975-482f-89a4-0abc15589760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\Config">
+      <UniqueIdentifier>{201e8be8-628c-403f-88cb-ca32cf33e8ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\Math">
+      <UniqueIdentifier>{84bd15bf-5a73-4397-be32-53d8f824a5c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\Network">
+      <UniqueIdentifier>{4d7d9eae-883a-4baa-a1e8-cf0d82ddb9f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\Util">
+      <UniqueIdentifier>{8e9c4636-fc70-49c5-aaee-4bcb8c03ce7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source Files\FFXI\Yk">
+      <UniqueIdentifier>{871ab25e-5652-4181-b51a-7e623d59351c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\toml++">
+      <UniqueIdentifier>{fe95553b-fd7a-4bce-a60c-866bd856ed53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\DirectShow">
+      <UniqueIdentifier>{1bceb905-f6ce-4239-b54e-488c24c8450e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XIClient.cpp">
+      <Filter>src\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FFXIRegistry.cpp">
+      <Filter>src\Source Files\FFXI</Filter>
+    </ClCompile>
+    <ClCompile Include="FFXIDX.cpp">
+      <Filter>src\Source Files\FFXI</Filter>
+    </ClCompile>
+    <ClCompile Include="StorageLists.cpp">
+      <Filter>src\Source Files\FFXI</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyObject.cpp">
+      <Filter>src\Source Files\FFXI\CYy</Filter>
+    </ClCompile>
+    <ClCompile Include="CApp.cpp">
+      <Filter>src\Source Files\FFXI\CYy\CApp</Filter>
+    </ClCompile>
+    <ClCompile Include="CDx.cpp">
+      <Filter>src\Source Files\FFXI\CYy\CDx</Filter>
+    </ClCompile>
+    <ClCompile Include="DxGamma.cpp">
+      <Filter>src\Source Files\FFXI\CYy\CDx</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyElemMemory.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyExMemory.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyLoadMemory.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyLowerMemory.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyMenuMemory.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyUpperMemory.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyWorkMemory.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryHeader.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="CAcc2.cpp">
+      <Filter>src\Source Files\FFXI\CYy\CDx</Filter>
+    </ClCompile>
+    <ClCompile Include="CAcc.cpp">
+      <Filter>src\Source Files\FFXI\CYy\CDx</Filter>
+    </ClCompile>
+    <ClCompile Include="CXITimerLow.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="CXITimer.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="XIFileManager.cpp">
+      <Filter>src\Source Files\FFXI\File</Filter>
+    </ClCompile>
+    <ClCompile Include="XIFileImpl.cpp">
+      <Filter>src\Source Files\FFXI\File</Filter>
+    </ClCompile>
+    <ClCompile Include="FsFileThreadManager.cpp">
+      <Filter>src\Source Files\FFXI\File</Filter>
+    </ClCompile>
+    <ClCompile Include="FsThread.cpp">
+      <Filter>src\Source Files\FFXI\File</Filter>
+    </ClCompile>
+    <ClCompile Include="FsFileThreadSync.cpp">
+      <Filter>src\Source Files\FFXI\File</Filter>
+    </ClCompile>
+    <ClCompile Include="FsFileEvent.cpp">
+      <Filter>src\Source Files\FFXI\File</Filter>
+    </ClCompile>
+    <ClCompile Include="FsFileQueue.cpp">
+      <Filter>src\Source Files\FFXI\File</Filter>
+    </ClCompile>
+    <ClCompile Include="FsSemaphore.cpp">
+      <Filter>src\Source Files\FFXI\File</Filter>
+    </ClCompile>
+    <ClCompile Include="XIFileBase.cpp">
+      <Filter>src\Source Files\FFXI\File</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnv.cpp">
+      <Filter>src\Source Files\FFXI\CYy</Filter>
+    </ClCompile>
+    <ClCompile Include="FsSleeper.cpp">
+      <Filter>src\Source Files\FFXI\File</Filter>
+    </ClCompile>
+    <ClCompile Include="FsErrorQueue.cpp">
+      <Filter>src\Source Files\FFXI\File</Filter>
+    </ClCompile>
+    <ClCompile Include="StorageListObject.cpp">
+      <Filter>src\Source Files\FFXI\CYy</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoTaskMng.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoResourceMng.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoTask.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoResource.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyTexMng.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Tex</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyVbMng.cpp">
+      <Filter>src\Source Files\FFXI\CYy\VertexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyVb.cpp">
+      <Filter>src\Source Files\FFXI\CYy\VertexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="a32or27thing.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourcePreHeader.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyResourceFile.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyBmp2.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CTkMsgWinData.cpp">
+      <Filter>src\Source Files\FFXI\Msg</Filter>
+    </ClCompile>
+    <ClCompile Include="CTkMenuMng.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CTkObList.cpp">
+      <Filter>src\Source Files\FFXI\CTk</Filter>
+    </ClCompile>
+    <ClCompile Include="CXiOpening.cpp">
+      <Filter>src\Source Files\FFXI\CYy\XIOpening</Filter>
+    </ClCompile>
+    <ClCompile Include="Subtitles.cpp">
+      <Filter>src\Source Files\FFXI\CYy\XIOpening</Filter>
+    </ClCompile>
+    <ClCompile Include="CXiMovie.cpp">
+      <Filter>src\Source Files\FFXI\CYy\XIOpening</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d8to9\d3d8to9.cpp">
+      <Filter>Libraries\d3d8to9</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d8to9\d3d8to9_base.cpp">
+      <Filter>Libraries\d3d8to9</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d8to9\d3d8to9_device.cpp">
+      <Filter>Libraries\d3d8to9</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d8to9\d3d8to9_index_buffer.cpp">
+      <Filter>Libraries\d3d8to9</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d8to9\d3d8to9_surface.cpp">
+      <Filter>Libraries\d3d8to9</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d8to9\d3d8to9_swap_chain.cpp">
+      <Filter>Libraries\d3d8to9</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d8to9\d3d8to9_texture.cpp">
+      <Filter>Libraries\d3d8to9</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d8to9\d3d8to9_vertex_buffer.cpp">
+      <Filter>Libraries\d3d8to9</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d8to9\d3d8to9_volume.cpp">
+      <Filter>Libraries\d3d8to9</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d8to9\d3d8types.cpp">
+      <Filter>Libraries\d3d8to9</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d8to9\interface_query.cpp">
+      <Filter>Libraries\d3d8to9</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoRenderer.cpp">
+      <Filter>src\Source Files\FFXI\CYy\XIOpening</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyMsb.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CTkNode.cpp">
+      <Filter>src\Source Files\FFXI\CTk</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyTex.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Tex</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyTexBase.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Tex</Filter>
+    </ClCompile>
+    <ClCompile Include="CTkObject.cpp">
+      <Filter>src\Source Files\FFXI\CTk</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMng.cpp">
+      <Filter>src\Source Files\FFXI\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundController.cpp">
+      <Filter>src\Source Files\FFXI\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandHandlers.cpp">
+      <Filter>src\Source Files\FFXI\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="WeirdSoundThing.cpp">
+      <Filter>src\Source Files\FFXI\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncSigs.cpp">
+      <Filter>src\Source Files\FFXI</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMsgHandler.cpp">
+      <Filter>src\Source Files\FFXI\CYy\CApp</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyCamMng2.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="IwManager.cpp">
+      <Filter>src\Source Files\FFXI\CTk\IwManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskBuff.cpp">
+      <Filter>src\Source Files\FFXI\CTk\IwManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>src\Source Files\FFXI\CTk\IwManager</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyMainTask.cpp">
+      <Filter>src\Source Files\FFXI\CTk\IwManager</Filter>
+    </ClCompile>
+    <ClCompile Include="XiDateTime.cpp">
+      <Filter>src\Source Files\FFXI\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicServer.cpp">
+      <Filter>src\Source Files\FFXI\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SomeTaskType.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyMusicLoadTask.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="Type0Decode.cpp">
+      <Filter>src\Source Files\FFXI\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyMeb.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CTkMsbData.cpp">
+      <Filter>src\Source Files\FFXI\CTk\ListNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="_49SubList.cpp">
+      <Filter>src\Source Files\FFXI\CTk\ListNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="_49SubListNode.cpp">
+      <Filter>src\Source Files\FFXI\CTk\ListNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="CTkMsbDataList.cpp">
+      <Filter>src\Source Files\FFXI\CTk\ListNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="CTkMenuCtrlData.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CTkMenuData.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CTkMenuFrame.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CTkResourceID.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CTkDrawCtrlFrame.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CTkMenuCursol.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CTkMenuButton.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="XIString.cpp">
+      <Filter>src\Source Files\FFXI\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="DMsg.cpp">
+      <Filter>src\Source Files\FFXI\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="StringTables.cpp">
+      <Filter>src\Source Files\FFXI\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="CTkDrawCtrlButton.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CTkDrawCtrlCursol.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimMng.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="CTkMenuPrimitive.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="KaWindow.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CIwLicenceMenu.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClCompile>
+    <ClCompile Include="CIwMenu.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClCompile>
+    <ClCompile Include="CIwPatchSub4.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClCompile>
+    <ClCompile Include="CIwPtcBgWin.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClCompile>
+    <ClCompile Include="TkManager.cpp">
+      <Filter>src\Source Files\FFXI\CTk\TkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CTkInputCtrl.cpp">
+      <Filter>src\Source Files\FFXI\CTk\TkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CKaTarget.cpp">
+      <Filter>src\Source Files\FFXI\CTk\TkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CIwOkMenu.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp">
+      <Filter>src\Source Files\FFXI\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="MojiDraw.cpp">
+      <Filter>src\Source Files\FFXI\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMng.cpp">
+      <Filter>src\Source Files\FFXI\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyIcon.cpp">
+      <Filter>src\Source Files\FFXI\CYy</Filter>
+    </ClCompile>
+    <ClCompile Include="GetKeyHandlers.cpp">
+      <Filter>src\Source Files\FFXI\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="FsMenuDraw.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="FsKeyboard.cpp">
+      <Filter>src\Source Files\FFXI\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="CYySepRes.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoDx.cpp">
+      <Filter>src\Source Files\FFXI\CYy\CDx</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundBuff1.cpp">
+      <Filter>src\Source Files\FFXI\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CFsConf6Win.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CFs</Filter>
+    </ClCompile>
+    <ClCompile Include="Floats.cpp">
+      <Filter>src\Source Files\FFXI\Constants</Filter>
+    </ClCompile>
+    <ClCompile Include="CIwNetWin.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClCompile>
+    <ClCompile Include="CIwNetWinSub1.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClCompile>
+    <ClCompile Include="CIwTopMenu.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClCompile>
+    <ClCompile Include="CIwLobbyMenu.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyScheduler.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoVariant.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CFsTitleConfigMenu.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CFs</Filter>
+    </ClCompile>
+    <ClCompile Include="CFsGameConfigMenu.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CFs</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoDisplayColorTask.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalStruct.cpp">
+      <Filter>src\Source Files\FFXI</Filter>
+    </ClCompile>
+    <ClCompile Include="XiZone.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Zone</Filter>
+    </ClCompile>
+    <ClCompile Include="XiWeather.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Zone</Filter>
+    </ClCompile>
+    <ClCompile Include="XiArea.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Zone</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoCamera.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoAttachments.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Attachments</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoAttachmentsSubStruct.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Attachments</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoSchedulerTask.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoMmb.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoMzb.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CTsZoneMap.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClCompile>
+    <ClCompile Include="MmbManager.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClCompile>
+    <ClCompile Include="MapChunk.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClCompile>
+    <ClCompile Include="CTsZoneMapSubStruct1.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClCompile>
+    <ClCompile Include="ReallyBigStruct.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoRid.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="RidManager.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClCompile>
+    <ClCompile Include="UnderscoreAtStruct.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyGenerator.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoProcessor.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseProcessor.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoCameraTask.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="AnotherSubStruct.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoPathObject.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoSpline.cpp">
+      <Filter>src\Source Files\FFXI\CYy</Filter>
+    </ClCompile>
+    <ClCompile Include="WeatherResources.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoWeather.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="YmCombineWeather.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Zone</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoKeyframe.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceList.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="XiColorEnv.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Zone</Filter>
+    </ClCompile>
+    <ClCompile Include="KzFQuat.cpp">
+      <Filter>src\Source Files\FFXI\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="WMatrix.cpp">
+      <Filter>src\Source Files\FFXI\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="XiWorldEnv.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Zone</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusNode.cpp">
+      <Filter>src\Source Files\FFXI\CYy\CDx</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoDxStatusMng.cpp">
+      <Filter>src\Source Files\FFXI\CYy\CDx</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoOcclusionMng.cpp">
+      <Filter>src\Source Files\FFXI\CYy\CDx</Filter>
+    </ClCompile>
+    <ClCompile Include="SomeCMoObj.cpp">
+      <Filter>src\Source Files\FFXI\CYy\CDx</Filter>
+    </ClCompile>
+    <ClCompile Include="StDancer.cpp">
+      <Filter>src\Source Files\FFXI\CTk\TkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CIwRaceMenu.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClCompile>
+    <ClCompile Include="CIwFaceMenu.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClCompile>
+    <ClCompile Include="CIwHairMenu.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClCompile>
+    <ClCompile Include="CIwSizeMenu.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClCompile>
+    <ClCompile Include="CIwJobsMenu.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClCompile>
+    <ClCompile Include="CIwOnePic.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClCompile>
+    <ClCompile Include="CIwSelectMenu.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClCompile>
+    <ClCompile Include="CGcMainSys.cpp">
+      <Filter>src\Source Files\FFXI\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="CNtDebug.cpp">
+      <Filter>src\Source Files\FFXI\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="CNtGame.cpp">
+      <Filter>src\Source Files\FFXI\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="CNtThreadSys.cpp">
+      <Filter>src\Source Files\FFXI\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="CNtTimeSys.cpp">
+      <Filter>src\Source Files\FFXI\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NT_SYS.cpp">
+      <Filter>src\Source Files\FFXI\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NT_SYS_BASE.cpp">
+      <Filter>src\Source Files\FFXI\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="CNtTcpDLL.cpp">
+      <Filter>src\Source Files\FFXI\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="CNtTcpList.cpp">
+      <Filter>src\Source Files\FFXI\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="CNtTcpQueueList.cpp">
+      <Filter>src\Source Files\FFXI\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="CNtTcpThread.cpp">
+      <Filter>src\Source Files\FFXI\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>src\Source Files\FFXI\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="YkManager.cpp">
+      <Filter>src\Source Files\FFXI\Yk</Filter>
+    </ClCompile>
+    <ClCompile Include="CIwChfWin.cpp">
+      <Filter>src\Source Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClCompile>
+    <ClCompile Include="XiDancerActorPara.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CXiDancerActor.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CXiSkeletonActor.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CXiActor.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CXiDollActor.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CXiControlActor.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CXiCollisionActor.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="XiAtelBuff.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyModel.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CXiAtelActor.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CXiSkeletonActorRes.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoCib.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="KzCib.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="KzCibCollect.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoSk2.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoMo2.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyModelBase.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CYySkl.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyMotionQueList.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyQue.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyMotionQue.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyMotionMan.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyFileLoadTask.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="XiFileStat.cpp">
+      <Filter>src\Source Files\FFXI\File</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyReferenceReadTask.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipReferenceRead.cpp">
+      <Filter>src\Source Files\FFXI\File\ReferenceReads</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoOs2.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyOs2VtxBuffer.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyModelDt.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Model\Dt</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyBasicDt.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Model\Dt</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyAdvancedDt.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Model\Dt</Filter>
+    </ClCompile>
+    <ClCompile Include="CXiActorDraw.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSubStruct1.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="LittleStruct.cpp">
+      <Filter>src\Source Files\FFXI</Filter>
+    </ClCompile>
+    <ClCompile Include="CTkMouse.cpp">
+      <Filter>src\Source Files\FFXI\CTk</Filter>
+    </ClCompile>
+    <ClCompile Include="VbList.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistryConfig.cpp">
+      <Filter>src\Source Files\FFXI\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="UnknownStructSub1.cpp">
+      <Filter>src\Source Files\FFXI\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="FsConfig.cpp">
+      <Filter>src\Source Files\FFXI\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="FsConfigSubject.cpp">
+      <Filter>src\Source Files\FFXI\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="FsCallbackListLink.cpp">
+      <Filter>src\Source Files\FFXI\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSubStruct5.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSubStruct2.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="DatIndices.cpp">
+      <Filter>src\Source Files\FFXI\Constants</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyResfList.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyNode.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionReferenceRead.cpp">
+      <Filter>src\Source Files\FFXI\File\ReferenceReads</Filter>
+    </ClCompile>
+    <ClCompile Include="BlendStruct.cpp">
+      <Filter>src\Source Files\FFXI\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ISAACRandom.cpp">
+      <Filter>src\Source Files\FFXI\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="TexHelper.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Tex</Filter>
+    </ClCompile>
+    <ClCompile Include="SomeVertexThing.cpp">
+      <Filter>src\Source Files\FFXI\CYy\VertexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="SVTSStorage.cpp">
+      <Filter>src\Source Files\FFXI\CYy\CDx</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoTextureDisplayTask.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyGeneratorClone.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CYyDb.cpp">
+      <Filter>src\Source Files\FFXI\CYy</Filter>
+    </ClCompile>
+    <ClCompile Include="UnknownClass.cpp">
+      <Filter>src\Source Files\FFXI\CYy</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratorTask.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoOtTask.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoElem.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Generator\Elem</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>src\Source Files\FFXI</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoOT.cpp">
+      <Filter>src\Source Files\FFXI\CYy</Filter>
+    </ClCompile>
+    <ClCompile Include="OTStruct.cpp">
+      <Filter>src\Source Files\FFXI\CYy</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoD3a.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoD3aElem.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoDistElem.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CYySoundElem.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoPointLightProgElem.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoD3mSpecialElem.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoD3m.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoD3mElem.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoD3mSpecularElem.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoDistModelElem.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoD3bElem.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoDistMorphElem.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoVtx.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoVtxList.cpp">
+      <Filter>src\Source Files\FFXI</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoSphRes.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="KO_Path.cpp">
+      <Filter>src\Source Files\FFXI</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoD3b.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoLfdElem.cpp">
+      <Filter>src\Source Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManager.cpp">
+      <Filter>src\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RuntimeConfig.cpp">
+      <Filter>src\Source Files\FFXI\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandLineConfig.cpp">
+      <Filter>src\Source Files\FFXI\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="PolVars.cpp">
+      <Filter>src\Source Files\FFXI</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\amextra.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\amfilter.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\amvideo.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\arithutil.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\combase.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\cprop.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\ctlutil.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\ddmm.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\dllentry.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\dllsetup.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\mtype.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\outputq.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\perflog.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\pstream.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\pullpin.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\refclock.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\renbase.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\schedule.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\seekpt.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\source.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\strmctl.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\sysclock.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\transfrm.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\transip.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\videoctl.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\vtrans.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\winctrl.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\winutil.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\wxdebug.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\wxlist.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\wxutil.cpp">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GlobalStruct.h">
+      <Filter>src\Header Files\FFXI</Filter>
+    </ClInclude>
+    <ClInclude Include="PolVars.h">
+      <Filter>src\Header Files\FFXI</Filter>
+    </ClInclude>
+    <ClInclude Include="FFXIRegistry.h">
+      <Filter>src\Header Files\FFXI</Filter>
+    </ClInclude>
+    <ClInclude Include="FFXIDX.h">
+      <Filter>src\Header Files\FFXI</Filter>
+    </ClInclude>
+    <ClInclude Include="StorageLists.h">
+      <Filter>src\Header Files\FFXI</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyObject.h">
+      <Filter>src\Header Files\FFXI\CYy</Filter>
+    </ClInclude>
+    <ClInclude Include="CApp.h">
+      <Filter>src\Header Files\FFXI\CYy\CApp</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryHeader.h">
+      <Filter>src\Header Files\FFXI\CYy\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyWorkMemory.h">
+      <Filter>src\Header Files\FFXI\CYy\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyUpperMemory.h">
+      <Filter>src\Header Files\FFXI\CYy\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyMenuMemory.h">
+      <Filter>src\Header Files\FFXI\CYy\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyElemMemory.h">
+      <Filter>src\Header Files\FFXI\CYy\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyExMemory.h">
+      <Filter>src\Header Files\FFXI\CYy\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyLoadMemory.h">
+      <Filter>src\Header Files\FFXI\CYy\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyLowerMemory.h">
+      <Filter>src\Header Files\FFXI\CYy\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="CDx.h">
+      <Filter>src\Header Files\FFXI\CYy\CDx</Filter>
+    </ClInclude>
+    <ClInclude Include="DxGamma.h">
+      <Filter>src\Header Files\FFXI\CYy\CDx</Filter>
+    </ClInclude>
+    <ClInclude Include="CAcc.h">
+      <Filter>src\Header Files\FFXI\CYy\CDx</Filter>
+    </ClInclude>
+    <ClInclude Include="CAcc2.h">
+      <Filter>src\Header Files\FFXI\CYy\CDx</Filter>
+    </ClInclude>
+    <ClInclude Include="CXITimerLow.h">
+      <Filter>src\Header Files\FFXI\CYy\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="CXITimer.h">
+      <Filter>src\Header Files\FFXI\CYy\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="XIFileManager.h">
+      <Filter>src\Header Files\FFXI\File</Filter>
+    </ClInclude>
+    <ClInclude Include="XIFileImpl.h">
+      <Filter>src\Header Files\FFXI\File</Filter>
+    </ClInclude>
+    <ClInclude Include="FsFileThreadManager.h">
+      <Filter>src\Header Files\FFXI\File</Filter>
+    </ClInclude>
+    <ClInclude Include="FsThread.h">
+      <Filter>src\Header Files\FFXI\File</Filter>
+    </ClInclude>
+    <ClInclude Include="FsFileThreadSync.h">
+      <Filter>src\Header Files\FFXI\File</Filter>
+    </ClInclude>
+    <ClInclude Include="FsFileEvent.h">
+      <Filter>src\Header Files\FFXI\File</Filter>
+    </ClInclude>
+    <ClInclude Include="FsFileQueue.h">
+      <Filter>src\Header Files\FFXI\File</Filter>
+    </ClInclude>
+    <ClInclude Include="FsErrorQueue.h">
+      <Filter>src\Header Files\FFXI\File</Filter>
+    </ClInclude>
+    <ClInclude Include="FsSemaphore.h">
+      <Filter>src\Header Files\FFXI\File</Filter>
+    </ClInclude>
+    <ClInclude Include="FsSleeper.h">
+      <Filter>src\Header Files\FFXI\File</Filter>
+    </ClInclude>
+    <ClInclude Include="XIFileBase.h">
+      <Filter>src\Header Files\FFXI\File</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnv.h">
+      <Filter>src\Header Files\FFXI\CYy</Filter>
+    </ClInclude>
+    <ClInclude Include="StorageListObject.h">
+      <Filter>src\Header Files\FFXI\CYy</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d8to9\d3d8to9.hpp">
+      <Filter>Libraries\d3d8to9</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d8to9\d3d8.hpp">
+      <Filter>Libraries\d3d8to9</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d8to9\d3d8types.hpp">
+      <Filter>Libraries\d3d8to9</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d8to9\d3dx9.hpp">
+      <Filter>Libraries\d3d8to9</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d8to9\interface_query.hpp">
+      <Filter>Libraries\d3d8to9</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoTaskMng.h">
+      <Filter>src\Header Files\FFXI\CYy\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoResourceMng.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoTask.h">
+      <Filter>src\Header Files\FFXI\CYy\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoResource.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourcePreHeader.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyTexMng.h">
+      <Filter>src\Header Files\FFXI\CYy\Tex</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyVbMng.h">
+      <Filter>src\Header Files\FFXI\CYy\VertexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyVb.h">
+      <Filter>src\Header Files\FFXI\CYy\VertexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings.h">
+      <Filter>src\Header Files\FFXI\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="DatIndices.h">
+      <Filter>src\Header Files\FFXI\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>src\Header Files\FFXI\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="Values.h">
+      <Filter>src\Header Files\FFXI\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceHeader.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="a32or27thing.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyBmp2.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyResourceFile.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkMsgWinData.h">
+      <Filter>src\Header Files\FFXI\Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkObject.h">
+      <Filter>src\Header Files\FFXI\CTk</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkObList.h">
+      <Filter>src\Header Files\FFXI\CTk</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkMenuMng.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CXiOpening.h">
+      <Filter>src\Header Files\FFXI\CYy\XIOpening</Filter>
+    </ClInclude>
+    <ClInclude Include="Subtitles.h">
+      <Filter>src\Header Files\FFXI\CYy\XIOpening</Filter>
+    </ClInclude>
+    <ClInclude Include="CXiMovie.h">
+      <Filter>src\Header Files\FFXI\CYy\XIOpening</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoRenderer.h">
+      <Filter>src\Header Files\FFXI\CYy\XIOpening</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyMsb.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkNode.h">
+      <Filter>src\Header Files\FFXI\CTk</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyTex.h">
+      <Filter>src\Header Files\FFXI\CYy\Tex</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyTexBase.h">
+      <Filter>src\Header Files\FFXI\CYy\Tex</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMng.h">
+      <Filter>src\Header Files\FFXI\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundController.h">
+      <Filter>src\Header Files\FFXI\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundBuff1.h">
+      <Filter>src\Header Files\FFXI\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundBuff2.h">
+      <Filter>src\Header Files\FFXI\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandHandlers.h">
+      <Filter>src\Header Files\FFXI\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="WeirdSoundThing.h">
+      <Filter>src\Header Files\FFXI\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncSigs.h">
+      <Filter>src\Header Files\FFXI</Filter>
+    </ClInclude>
+    <ClInclude Include="FVF44Vertex.h">
+      <Filter>src\Header Files\FFXI\CYy\CDx\VertexTyypes</Filter>
+    </ClInclude>
+    <ClInclude Include="FVF144Vertex.h">
+      <Filter>src\Header Files\FFXI\CYy\CDx\VertexTyypes</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyCamMng2.h">
+      <Filter>src\Header Files\FFXI\CYy\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="IwManager.h">
+      <Filter>src\Header Files\FFXI\CTk\IwManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskBuff.h">
+      <Filter>src\Header Files\FFXI\CTk\IwManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>src\Header Files\FFXI\CTk\IwManager</Filter>
+    </ClInclude>
+    <ClInclude Include="XiDateTime.h">
+      <Filter>src\Header Files\FFXI\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicServer.h">
+      <Filter>src\Header Files\FFXI\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SomeTaskType.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyMusicLoadTask.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioFileHeader.h">
+      <Filter>src\Header Files\FFXI\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyMeb.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkMsbData.h">
+      <Filter>src\Header Files\FFXI\CTk\ListNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="_49ListNode.h">
+      <Filter>src\Header Files\FFXI\CTk\ListNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="_49SubList.h">
+      <Filter>src\Header Files\FFXI\CTk\ListNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="_49SubListNode.h">
+      <Filter>src\Header Files\FFXI\CTk\ListNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkMsbDataList.h">
+      <Filter>src\Header Files\FFXI\CTk\ListNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkMenuCtrlData.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkMenuData.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkMenuFrame.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkResourceID.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkDrawCtrlFrame.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkMenuCursol.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkMenuButton.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="DMsg.h">
+      <Filter>src\Header Files\FFXI\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="StringTables.h">
+      <Filter>src\Header Files\FFXI\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="XIString.h">
+      <Filter>src\Header Files\FFXI\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkDrawCtrlButton.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkDrawCtrlCursol.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimMng.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimTableEntry.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkMenuPrimitive.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="KaWindow.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CIwMenu.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClInclude>
+    <ClInclude Include="CIwPatchSub4.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClInclude>
+    <ClInclude Include="TkRect.h">
+      <Filter>src\Header Files\FFXI\CTk</Filter>
+    </ClInclude>
+    <ClInclude Include="CIwPtcBgWin.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClInclude>
+    <ClInclude Include="CIwLicenceMenu.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClInclude>
+    <ClInclude Include="TkManager.h">
+      <Filter>src\Header Files\FFXI\CTk\TkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkInputCtrl.h">
+      <Filter>src\Header Files\FFXI\CTk\TkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CKaTarget.h">
+      <Filter>src\Header Files\FFXI\CTk\TkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaceHolders.h">
+      <Filter>src\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CIwOkMenu.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>src\Header Files\FFXI\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="MojiDraw.h">
+      <Filter>src\Header Files\FFXI\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMng.h">
+      <Filter>src\Header Files\FFXI\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyIcon.h">
+      <Filter>src\Header Files\FFXI\CYy</Filter>
+    </ClInclude>
+    <ClInclude Include="FsMenuDraw.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="FsKeyboard.h">
+      <Filter>src\Header Files\FFXI\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="FsPad.h">
+      <Filter>src\Header Files\FFXI\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="FsTextInput.h">
+      <Filter>src\Header Files\FFXI\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CYySepRes.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoDx.h">
+      <Filter>src\Header Files\FFXI\CYy\CDx</Filter>
+    </ClInclude>
+    <ClInclude Include="CFsConf6Win.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CFs</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkEventMsg.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CTk</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkHelp.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CTk</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkTitle.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CTk</Filter>
+    </ClInclude>
+    <ClInclude Include="CFsTitleConfigMenu.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CFs</Filter>
+    </ClInclude>
+    <ClInclude Include="CIwNetWin.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClInclude>
+    <ClInclude Include="CIwNetWinSub1.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClInclude>
+    <ClInclude Include="CTsZoneMap.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClInclude>
+    <ClInclude Include="ReallyBigStruct.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClInclude>
+    <ClInclude Include="CTsZoneMapSubStruct1.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherResources.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClInclude>
+    <ClInclude Include="CIwTopMenu.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClInclude>
+    <ClInclude Include="CIwLobbyMenu.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyScheduler.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoVariant.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CFsGameConfigMenu.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CFs</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoDisplayColorTask.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="XiArea.h">
+      <Filter>src\Header Files\FFXI\CYy\Zone</Filter>
+    </ClInclude>
+    <ClInclude Include="XiZone.h">
+      <Filter>src\Header Files\FFXI\CYy\Zone</Filter>
+    </ClInclude>
+    <ClInclude Include="XiWeather.h">
+      <Filter>src\Header Files\FFXI\CYy\Zone</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoCamera.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoAttachments.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Attachments</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoAttachmentsSubStruct.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Attachments</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoSchedulerTask.h">
+      <Filter>src\Header Files\FFXI\CYy\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoMmb.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoMzb.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="MmbManager.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClInclude>
+    <ClInclude Include="SomeStruct.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClInclude>
+    <ClInclude Include="MapChunk.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoRid.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="RidManager.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClInclude>
+    <ClInclude Include="RidListNode.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClInclude>
+    <ClInclude Include="RidStruct.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClInclude>
+    <ClInclude Include="UnderscoreAtStruct.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyGenerator.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="RuntimeClass.h">
+      <Filter>src\Header Files\FFXI\CYy</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoProcessor.h">
+      <Filter>src\Header Files\FFXI\CYy\Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseProcessor.h">
+      <Filter>src\Header Files\FFXI\CYy\Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="MmbListNode.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniStruct.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoCameraTask.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="MmbStruct.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClInclude>
+    <ClInclude Include="MmbStruct2.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClInclude>
+    <ClInclude Include="AnotherSubStruct.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClInclude>
+    <ClInclude Include="Zoneline.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClInclude>
+    <ClInclude Include="Submodel.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoSpline.h">
+      <Filter>src\Header Files\FFXI\CYy</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoPathObject.h">
+      <Filter>src\Header Files\FFXI\CYy\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherResource.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\ZoneMapTask</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoWeather.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="YmCombineWeather.h">
+      <Filter>src\Header Files\FFXI\CYy\Zone</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoKeyframe.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceList.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="XiColorEnv.h">
+      <Filter>src\Header Files\FFXI\CYy\Zone</Filter>
+    </ClInclude>
+    <ClInclude Include="WMatrix.h">
+      <Filter>src\Header Files\FFXI\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="KzFQuat.h">
+      <Filter>src\Header Files\FFXI\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="XiWorldEnv.h">
+      <Filter>src\Header Files\FFXI\CYy\Zone</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusNode.h">
+      <Filter>src\Header Files\FFXI\CYy\CDx</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoDxStatusMng.h">
+      <Filter>src\Header Files\FFXI\CYy\CDx</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoOcclusionMng.h">
+      <Filter>src\Header Files\FFXI\CYy\CDx</Filter>
+    </ClInclude>
+    <ClInclude Include="SomeCMoObj.h">
+      <Filter>src\Header Files\FFXI\CYy\CDx</Filter>
+    </ClInclude>
+    <ClInclude Include="StDancer.h">
+      <Filter>src\Header Files\FFXI\CTk\TkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CIwRaceMenu.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClInclude>
+    <ClInclude Include="CIwFaceMenu.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClInclude>
+    <ClInclude Include="CIwHairMenu.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClInclude>
+    <ClInclude Include="CIwSizeMenu.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClInclude>
+    <ClInclude Include="CIwJobsMenu.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClInclude>
+    <ClInclude Include="CIwOnePic.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClInclude>
+    <ClInclude Include="CIwSelectMenu.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClInclude>
+    <ClInclude Include="CGcMainSys.h">
+      <Filter>src\Header Files\FFXI\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CNtDebug.h">
+      <Filter>src\Header Files\FFXI\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CNtGame.h">
+      <Filter>src\Header Files\FFXI\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CNtThreadSys.h">
+      <Filter>src\Header Files\FFXI\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CNtTimeSys.h">
+      <Filter>src\Header Files\FFXI\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CNtUdpSys.h">
+      <Filter>src\Header Files\FFXI\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NT_SYS.h">
+      <Filter>src\Header Files\FFXI\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NT_SYS_BASE.h">
+      <Filter>src\Header Files\FFXI\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="UdpSubStruct.h">
+      <Filter>src\Header Files\FFXI\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CNtTcpDLL.h">
+      <Filter>src\Header Files\FFXI\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CNtDLLInitStruct.h">
+      <Filter>src\Header Files\FFXI\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="lpkt_work.h">
+      <Filter>src\Header Files\FFXI\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CNtTcpList.h">
+      <Filter>src\Header Files\FFXI\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CNtTcpQueueList.h">
+      <Filter>src\Header Files\FFXI\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CNtTcpQueue.h">
+      <Filter>src\Header Files\FFXI\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CNtTcpThread.h">
+      <Filter>src\Header Files\FFXI\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>src\Header Files\FFXI\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ContentIDInfo.h">
+      <Filter>src\Header Files\FFXI\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="RealmInfo.h">
+      <Filter>src\Header Files\FFXI\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="YkManager.h">
+      <Filter>src\Header Files\FFXI\Yk</Filter>
+    </ClInclude>
+    <ClInclude Include="CIwChfWin.h">
+      <Filter>src\Header Files\FFXI\CTk\Menu\Primitive\Derived\CIw</Filter>
+    </ClInclude>
+    <ClInclude Include="XiDancerActorPara.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyModel.h">
+      <Filter>src\Header Files\FFXI\CYy\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="KzCib.h">
+      <Filter>src\Header Files\FFXI\CYy\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoCib.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="KzCibCollect.h">
+      <Filter>src\Header Files\FFXI\CYy\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoSk2.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoMo2.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyModelBase.h">
+      <Filter>src\Header Files\FFXI\CYy\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CYySkl.h">
+      <Filter>src\Header Files\FFXI\CYy\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyMotionQueList.h">
+      <Filter>src\Header Files\FFXI\CYy\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyQue.h">
+      <Filter>src\Header Files\FFXI\CYy\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyMotionQue.h">
+      <Filter>src\Header Files\FFXI\CYy\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyMotionMan.h">
+      <Filter>src\Header Files\FFXI\CYy\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="RaceModelTables.h">
+      <Filter>src\Header Files\FFXI\CYy\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyFileLoadTask.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="XiFileStat.h">
+      <Filter>src\Header Files\FFXI\File</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipReferenceRead.h">
+      <Filter>src\Header Files\FFXI\File\ReferenceReads</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferenceReadBase.h">
+      <Filter>src\Header Files\FFXI\File\ReferenceReads</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyReferenceReadTask.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyReferenceReadWithAttachmentTask.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoOs2.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CXiActor.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CXiAtelActor.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CXiCollisionActor.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CXiControlActor.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CXiDancerActor.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CXiSkeletonActor.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CXiDollActor.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CXiSkeletonActorRes.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="XiAtelBuff.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyOs2VtxBuffer.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyModelDt.h">
+      <Filter>src\Header Files\FFXI\CYy\Model\Dt</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyBasicDt.h">
+      <Filter>src\Header Files\FFXI\CYy\Model\Dt</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyAdvancedDt.h">
+      <Filter>src\Header Files\FFXI\CYy\Model\Dt</Filter>
+    </ClInclude>
+    <ClInclude Include="CXiActorDraw.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionManStaticStruct.h">
+      <Filter>src\Header Files\FFXI\CYy\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSubStruct1.h">
+      <Filter>src\Header Files\FFXI\CYy\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="LittleStruct.h">
+      <Filter>src\Header Files\FFXI</Filter>
+    </ClInclude>
+    <ClInclude Include="CTkMouse.h">
+      <Filter>src\Header Files\FFXI\CTk</Filter>
+    </ClInclude>
+    <ClInclude Include="VbList.h">
+      <Filter>src\Header Files\FFXI\CYy\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistryConfig.h">
+      <Filter>src\Header Files\FFXI\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="UnknownStructSub1.h">
+      <Filter>src\Header Files\FFXI\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="FsConfig.h">
+      <Filter>src\Header Files\FFXI\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="FsConfigSubject.h">
+      <Filter>src\Header Files\FFXI\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="FsCallbackListLink.h">
+      <Filter>src\Header Files\FFXI\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSubStruct5.h">
+      <Filter>src\Header Files\FFXI\CYy\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSubStruct2.h">
+      <Filter>src\Header Files\FFXI\CYy\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyResfList.h">
+      <Filter>src\Header Files\FFXI\CYy\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyNode.h">
+      <Filter>src\Header Files\FFXI\CYy\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionReferenceRead.h">
+      <Filter>src\Header Files\FFXI\File\ReferenceReads</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendStruct.h">
+      <Filter>src\Header Files\FFXI\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ISAACRandom.h">
+      <Filter>src\Header Files\FFXI\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="TexHelper.h">
+      <Filter>src\Header Files\FFXI\CYy\Tex</Filter>
+    </ClInclude>
+    <ClInclude Include="SomeVertexThing.h">
+      <Filter>src\Header Files\FFXI\CYy\VertexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="SVTSStorage.h">
+      <Filter>src\Header Files\FFXI\CYy\CDx</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoTextureDisplayTask.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyGeneratorClone.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoOtTask.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="CYyDb.h">
+      <Filter>src\Header Files\FFXI\CYy</Filter>
+    </ClInclude>
+    <ClInclude Include="UnknownClass.h">
+      <Filter>src\Header Files\FFXI\CYy</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratorTask.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoElem.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Generator\Elem</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>src\Header Files\FFXI</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoOT.h">
+      <Filter>src\Header Files\FFXI\CYy</Filter>
+    </ClInclude>
+    <ClInclude Include="OTStruct.h">
+      <Filter>src\Header Files\FFXI\CYy</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoD3a.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoD3aElem.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoDistElem.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CYySoundElem.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoPointLightProgElem.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoD3mSpecialElem.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoD3m.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoD3mElem.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoDistModelElem.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoD3mSpecularElem.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoD3bElem.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoDistMorphElem.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoVtx.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoVtxList.h">
+      <Filter>src\Header Files\FFXI</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoSphRes.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="KO_Path.h">
+      <Filter>src\Header Files\FFXI</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoD3b.h">
+      <Filter>src\Header Files\FFXI\CYy\Resource\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoLfdElem.h">
+      <Filter>src\Header Files\FFXI\CYy\Task\Derived\Generator\Elem\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="FVF104Vertex.h">
+      <Filter>src\Header Files\FFXI\CYy\CDx\VertexTyypes</Filter>
+    </ClInclude>
+    <ClInclude Include="FVF152Vertex.h">
+      <Filter>src\Header Files\FFXI\CYy\CDx\VertexTyypes</Filter>
+    </ClInclude>
+    <ClInclude Include="FVF42Vertex.h">
+      <Filter>src\Header Files\FFXI\CYy\CDx\VertexTyypes</Filter>
+    </ClInclude>
+    <ClInclude Include="XIClient.h">
+      <Filter>src\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManager.h">
+      <Filter>src\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RuntimeConfig.h">
+      <Filter>src\Header Files\FFXI\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx9math.h">
+      <Filter>Libraries\d3d8to9</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandLineConfig.h">
+      <Filter>src\Header Files\FFXI\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="toml++\toml.hpp">
+      <Filter>Libraries\toml++</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\amextra.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\amfilter.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\cache.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\combase.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\cprop.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\ctlutil.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\ddmm.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\dllsetup.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\dxmperf.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\fourcc.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\measure.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\msgthrd.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\mtype.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\outputq.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\perflog.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\perfstruct.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\pstream.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\pullpin.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\refclock.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\reftime.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\renbase.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\schedule.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\seekpt.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\source.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\streams.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\strmctl.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\sysclock.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\transfrm.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\transip.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\videoctl.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\vtrans.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\winctrl.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\winutil.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\wxdebug.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\wxlist.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\wxutil.h">
+      <Filter>Libraries\DirectShow</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Snippets.txt" />
+  </ItemGroup>
+</Project>

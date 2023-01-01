@@ -1,0 +1,100 @@
+#pragma once
+#include "NT_SYS_BASE.h"
+
+namespace FFXI {
+	namespace Network {
+		class NT_SYS : public NT_SYS_BASE {
+		public:
+			static int timer;
+			static int dllsw;
+			static char InfoMationString[0x200];
+			static int SomeValue;
+			static char versionstring[16];
+			static bool CliZoneFadeOutFlag;
+			static bool CliZoneFadeInFlag;
+			static int CliZoneFadeOutCount;
+			static int CliZoneFadeInCount;
+			static void SetVersionString(const char* a1);
+			static int getTotalModePhase(int);
+			static void CliLocalTask();
+			static void ResetTimer();
+			static bool UpdateTimer();
+			static int gcLoginGetXiError();
+			static int getFFXIID(int);
+			int getTotalCharacters();
+			bool Init();
+			void Proc();
+			void ProcBase();
+			int gcLoginProc(int*);
+			void gcLoginSetInfoMationString(char*);
+			const char* gcLoginGetInfoMationString();
+			bool IsConnect();
+			int modeGet();
+			void modeSet(int, int);
+			int getLastError();
+			int getChrStatus(int);
+			char* getChrName(int);
+			char* getWorldName(int);
+			int getWorld(int);
+			int getArea(int);
+			short* getEquip(int);
+			int getRaceGender(int);
+			int getJob(int);
+			int getFaceNo(int);
+			int getTownNo(int);
+			int getHair(int);
+			int getSize(int);
+			int getLv(int);
+			int field_4;
+			int field_8;
+			int field_C;
+			int field_10;
+			int field_14;
+			char field_18;
+			char field_19;
+			char field_1A;
+			char field_1B;
+			int field_1C;
+			int field_20;
+			int field_24;
+			int field_28;
+			int field_2C;
+			int field_30;
+			int field_34;
+			int field_38;
+			int field_3C;
+			int field_40;
+			int field_44;
+			int field_48;
+			int field_4C;
+			int field_50;
+			int field_54;
+			int field_58;
+			int field_5C;
+			int field_60;
+			int field_64;
+			int field_68;
+			int field_6C;
+			int field_70;
+			int field_74;
+			int field_78;
+			int field_7C;
+			int field_80;
+			int field_84;
+			int field_88;
+			int field_8C;
+			int field_90;
+			int field_94;
+			int ClientMode;
+			int ZoneMode;
+			int field_A0;
+			int POLCON;
+			int field_A8;
+			int ServerExpansions;
+			int ClientExpansions;
+			int field_B4;
+			int field_B8;
+			int field_BC;
+		};
+	}
+}

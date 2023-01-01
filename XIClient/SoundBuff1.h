@@ -1,0 +1,95 @@
+#pragma once
+#define WIN32_LEAN_AND_MEAN
+#include <Windows.h>
+#include <mmeapi.h>
+#include <dsound.h>
+#include "WeirdSoundThing.h"
+
+namespace FFXI {
+	class SoundBuff1 {
+	public:
+		void PrepareSoundData(char*, char*, int);
+		LPDIRECTSOUNDBUFFER PrimaryBuffer;
+		LPDIRECTSOUNDBUFFER SecondaryBuffer;
+		char* FileData;
+		char FileHeader[0x30];
+		HANDLE Handle;
+		DWORD ThreadID;
+		SoundBuff1* field_44;
+		int field_48;
+		char field_4C;
+		char field_4D;
+		char field_4E;
+		char field_4F;
+		char field_50;
+		char field_51;
+		char field_52;
+		char field_53;
+		char field_54;
+		char field_55;
+		char field_56;
+		char field_57;
+		char field_58;
+		char field_59;
+		char field_5A;
+		char field_5B;
+		char field_5C;
+		char field_5D;
+		char field_5E;
+		char field_5F;
+		char field_60;
+		char field_61;
+		char field_62;
+		char field_63;
+		char field_64;
+		char field_65;
+		char field_66;
+		char field_67;
+		char field_68;
+		char field_69;
+		char field_6A;
+		char field_6B;
+		int field_6C;
+		int field_70;
+		int field_74;
+		int field_78;
+		int field_7C;
+		int field_80;
+		int field_84;
+		WeirdSoundThing field_88;
+		int field_98;
+		char field_9C;
+		char field_9D;
+		char field_9E;
+		char field_9F;
+		char field_A0;
+		char field_A1;
+		char field_A2;
+		char field_A3;
+		char field_A4;
+		char field_A5;
+		char field_A6;
+		char field_A7;
+		char field_A8;
+		char field_A9;
+		char field_AA;
+		char field_AB;
+		int field_AC;
+		int field_B0;
+		int field_B4;
+		int field_B8;
+		int field_BC;
+		int field_C0;
+		int field_C4;
+		int field_C8;
+		int field_CC;
+		int field_D0;
+		int field_D4;
+		int field_D8;
+		int Type0DecodeContext[4];
+		int field_E4;
+		int field_E8;
+		int field_EC;
+		int field_F0;
+	};
+}
